@@ -1,0 +1,92 @@
+@CHARSET "ISO-8859-1";
+
+body.user {
+	background-color: #209FFE;
+}
+
+a {
+	color: #fff
+}
+
+header a,footer a,header .btn,footer .btn {
+	/* font-size: 18px */
+	
+}
+
+.col-center-block {
+	float: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label.radio {
+	padding-left: 20px;
+}
+
+/**
+ *
+ * LOGIN VIEW
+ *
+ */
+.text-header h1 {
+	color: #ffffff;
+}
+
+img.logo {
+	background-color: rgba(255, 255, 255, 1.0);
+	padding: 10px;
+}
+
+.login-box {
+	text-align: left;
+	padding: 20px;
+	background-color: #ffffff;
+	-webkit-box-shadow: 0 3px 0 0 #007299;
+	-moz-box-shadow: 0 3px 0 0 #007299;
+	box-shadow: 0 3px 0 0 #007299;
+}
+
+.login-box legend {
+	margin-bottom: 0px;
+}
+
+/**
+ *
+ * PANEL VIEW
+ *
+ */
+ 
+ /*
+.box {
+	border: 0px;
+	background-color: #ffffff;
+	-webkit-box-shadow: 0 3px 0 0 #007299;
+	-moz-box-shadow: 0 3px 0 0 #007299;
+	box-shadow: 0 3px 0 0 #007299;
+}
+
+.box-header2 {
+	display: block;
+	padding: 10px;
+}
+
+.box-header3 {
+	padding-top: 10px;
+	height: auto !important;
+}
+
+.box-header2,.box-header3 {
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 0px;
+	background-color: #FBA202;
+	margin-bottom: 10px;
+}
+
+*/
+
+.box-header2 h2,.box-header3 h2,.box-header2 h2>i,.box-header3 h2>i {
+	color: #ffffff;
+	line-height: 36px;
+}

@@ -1,0 +1,81 @@
+.grafico {
+  z-index: 999;
+}
+
+.label3 {
+  font-weight: bold;
+  line-height: 15px;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.label-important2 {
+  font-size: 15px;
+  background-color: #b94a48;
+}
+
+.label-important3 {
+  font-size: 15px;
+}
+.label-success2 {
+	text-decoration: underline;
+	background-color: #468847;
+	cursor: hand;
+}
+
+.label-info2 {
+  font-size: 12px;
+}
+
+.mySpan {
+	cursor: pointer;
+}
+
+.label4 {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 16px;
+  color: #330000;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  /*white-space: nowrap;*/
+  vertical-align: baseline;
+  background-color: #ffffb7;
+}
+
+.label4 {
+  padding: 1px 4px 2px;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.selectCS {
+  width: 200px;
+  border: 1px solid #bbb;
+}
+
+.selectSucursal {
+  width: 150px;
+  border: 1px solid #bbb;
+}
+
+.brand2{
+font-family: 'Shojumaru', cursive, Arial, serif; 
+letter-spacing:2px;
+text-shadow:1px 1px 5px rgba(0, 0, 0, 0.5);
+width:215px;
+}
+.brand2 img{
+float:left;
+height:96px;
+width:213px;
+margin-right:5px;
+}
+.brand2 span{
+float:left;
+}
+.box-content2{
+padding:10px;
+font-size: 12px;
+
+}
