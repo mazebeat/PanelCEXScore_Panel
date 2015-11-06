@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="PanelCustomer_FINAL">
+    <wb-module deploy-name="CExScore">
+        <wb-resource deploy-path="/WEB-INF/web.xml" source-path="/src/main/webapp/WEB-INF/web.xml"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
         <wb-resource deploy-path="/" source-path="/target/m2e-jee/web-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
-        <property name="context-root" value="PanelCustomer_FINAL"/>
-        <property name="java-output-path" value="/PanelCustomer_FINAL/WebRoot/WEB-INF/classes"/>
+        <property name="java-output-path" value="/CExScore/WebRoot/WEB-INF/classes"/>
+        <property name="context-root" value="CExScore"/>
     </wb-module>
 </project-modules>

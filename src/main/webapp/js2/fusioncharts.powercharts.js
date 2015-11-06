@@ -1,10 +1,9 @@
 /*
- FusionCharts JavaScript Library
- Copyright FusionCharts Technologies LLP
- License Information at <http://www.fusioncharts.com/license>
-
- @version 3.4.0
-*/
+ * FusionCharts JavaScript Library Copyright FusionCharts Technologies LLP
+ * License Information at <http://www.fusioncharts.com/license>
+ * 
+ * @version 3.4.0
+ */
 FusionCharts.register("module",["private","modules.renderer.js-gradientlegend",function(){function Wa(f,h,cb){var r=f[0],E=f[1];f=f[2];r+=(h[0]-r)*cb;E+=(h[1]-E)*cb;h=f+(h[2]-f)*cb;return{hex:(y+(r<<16|E<<8|h).toString(16)).slice(-6),rgb:[r,E,h]}}function db(f,h){return f.maxvalue-h.maxvalue}function nb(h){var y,r,Fa=h.colorRange||{},E=h.dataMin,D=h.dataMax,qa=h.sortLegend||!1,v=h.mapByCategory||!1,G=h.defaultColor,aa=h.numberFormatter,lb=Fa.color;h=this.colorArr=[];var O,P,B;this.mapByCategory=v;
 "1"===Fa.mapbypercent&&(this.mapbypercent=!0);if("1"===Fa.gradient&&!v){this.gradient=!0;r=oa(Ka(Fa.startcolor,Fa.mincolor,Fa.code));qa=Mb(oa(Ka(r,G,"CCCCCC")));v=this.scaleMin=Sa(Fa.startvalue,Fa.minvalue,this.mapbypercent?0:E);h.push({code:r,maxvalue:v,label:I(Fa.startlabel),codeRGB:Mb(r)});if(lb&&(y=lb.length))for(E=0;E<y;E+=1)G=lb[E],r=oa(Ka(G.color,G.code)),P=Sa(G.value,G.maxvalue),B=Sa(G.minvalue),P>v&&h.push({code:r,maxvalue:P,userminvalue:B,label:I(Ka(G.label,G.displayvalue)),codeRGB:Mb(r)});
 h.sort(db);y=h.length;for(E=1;E<y;E+=1)G=h[E],r=G.maxvalue-v,0<r?(G.minvalue=v,G.range=r,v=G.maxvalue):(h.splice(E,1),E-=1,y-=1);2<=h.length&&(this.scaleMax=v,h[E-1].label=Ka(Fa.endlabel,h[E-1].label,h[E-1].displayvalue));1===h.length&&(P=Sa(Fa.maxvalue,this.mapbypercent?100:D),h.push({minvalue:v,maxvalue:P,range:P-v,label:Fa.endlabel}),this.scaleMax=P,delete h[0].code);Fa=h[0];D=h[h.length-1];Fa.code&&D.code||(r=f(qa),y=X((r[2]=0,r)),r=X((r[2]=100,r)),Fa.code||(Fa.codeRGB=y,Fa.code=W(y)),D.code||

@@ -1,13 +1,13 @@
-function nuevoAjax(xmlhttp) {
+var load = "<img class='text-center center-block' src='img/loading.gif' align='center'>";
 
+function nuevoAjax(xmlhttp) {
+    
     try {
         xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
-    }
-    catch (e) {
+    } catch (e) {
         try {
             xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-        }
-        catch (E) {
+        } catch (E) {
             xmlhttp = false;
         }
     }
@@ -18,55 +18,43 @@ function nuevoAjax(xmlhttp) {
 }
 
 function cargarContenido(pagina, destino) {
-    var load = "<img src='../img/loading.gif' align='center'>";
-
     $.ajax({
-        url: pagina,
-        type: 'GET',
-        beforeSend: function () {
-            // TODO: show your spinner
+        url : pagina,
+        type : 'GET',
+        beforeSend : function() {
             $('#' + destino).empty().html($(load));
         },
-        complete: function () {
-            // TODO: hide your spinner
+        complete : function() {
             $('#' + destino).remove('img');
         },
-        success: function (result) {
-            // TODO: handle the results
-            console.log(result);
+        success : function(result) {
             $('#' + destino).empty().html(result);
         },
-        error: function (xhr, ajaxOptions, thrownError) {
-            // TODO: handle the errors
+        error : function(xhr, ajaxOptions, thrownError) {
             console.log(xhr.status, thrownError);
             $('#' + destino).empty().html(thrownError);
         }
     });
 }
 
-function cargarContenidoPost(pagina, destino) {
-
+function cargarContenidoPost(pagina, params, destino) {
     $.ajax({
-        url: pagina,
-        type: 'POST',
-        headers: {
-            "Content-Type": "application/x-www-form-urlencoded"
+        url : pagina,
+        type : 'POST',
+        data : params,
+        headers : {
+            "Content-Type" : "application/x-www-form-urlencoded"
         },
-        beforeSend: function () {
-            // TODO: show your spinners
-            $('#' + destino).empty.html($(load));
+        beforeSend : function() {
+            $('#' + destino).empty().html($(load));
         },
-        complete: function () {
-            // TODO: hide your spinner
+        complete : function() {
             $('#' + destino).remove('img');
         },
-        success: function (result) {
-            // TODO: handle the results
-            console.log(result);
+        success : function(result) {
             $('#' + destino).empty().html(result);
         },
-        error: function (xhr, ajaxOptions, thrownError) {
-            // TODO: handle the errors
+        error : function(xhr, ajaxOptions, thrownError) {
             console.log(xhr.status, thrownError);
             $('#' + destino).empty().html(thrownError);
         }
@@ -80,7 +68,6 @@ function getTimeForURL() {
     return strOutput;
 }
 
-
 function hideDiv(elm) {
     document.getElementById(elm).style.display = 'none';
 }
@@ -91,29 +78,28 @@ function showDiv(elm) {
 
 function GetRadioValue(radioObject) {
     var value = null;
-
+    
     // Validate parameter value
-//***	if (radioObject+"" == "undefined" || radioObject == null)
+    // *** if (radioObject+"" == "undefined" || radioObject == null)
     if (radioObject == null)
         return null;
-
+    
     for (var i = 0; i < radioObject.length; i++) {
         if (radioObject[i].checked) {
             value = radioObject[i].value;
             break;
         }
     } // end for loop
-
+    
     return value;
 }
 
-
 function getSelectedText(elementId) {
     var elt = document.getElementById(elementId);
-
+    
     if (elt.selectedIndex == -1)
         return '';
-
+    
     return elt.options[elt.selectedIndex].text;
 }
 

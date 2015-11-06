@@ -1,20 +1,15 @@
 <%@ include file="inc/header.jsp"%>
-<%
-	response.setDateHeader("Expires", 0); // date in the past
-	response.addHeader("Cache-Control", "no-store, no-cache, must-revalidate"); // HTTP/1.1 
-	response.addHeader("Cache-Control", "post-check=0, pre-check=0");
-	response.addHeader("Pragma", "no-cache"); // HTTP/1.0
-%>
 <script src="js/ew.js"></script>
 <script type="text/javascript"></script>
 <div class="row">
-	<div class="col-center-block col-md-8">
-		<img src="img/customertrigger.png"
-			class="img-responsive logo center-block" alt="">
-	</div>
-
-	<div class="col-md-12 login-header text-header text-center">
-		<h1>Panel Customer EX Score</h1>
+<!-- 	<div class="col-center-block col-md-8"> -->
+<!-- 		<img src="http://www.customertrigger.com/wp-content/uploads/2015/05/logo-customer-trigger-large-2015.png" class="img-responsive logo center-block" alt=""> -->
+<!-- 	</div> -->
+	<div class="col-center-block col-md-6 login-header text-header text-center">
+		<h1 style="text-align: center;">
+			<img src="img/customertrigger-score.png" class="img-responsive logo center-block" alt="">
+			<!-- <span style="color: #ff9900;"><b>Customer</b></span> <span style="color: #1e73be;">Experience SCORE</span> -->
+		</h1>
 	</div>
 </div>
 
@@ -24,12 +19,15 @@ ${message}
 	<div class="col-center-block col-md-4 login-box">
 		<form class="" action="LoginServlet" method="POST">
 			<fieldset>
-				<legend>Inicio de Sesi&oacute;n</legend>
+				<legend>
+					<i class="fa fa-sign-in fa-fw"></i>&nbsp;INICIO DE SESI&Oacute;N
+				</legend>
 				<div class="form-group">
 					<input type="hidden" id="remember" />
 				</div>
 				<div class="form-group">
 					<label for="username">Usuario</label>
+
 					<div class="input-group">
 						<div class="input-group-addon">
 							<i class="fa fa-user"></i>
@@ -40,6 +38,7 @@ ${message}
 				</div>
 				<div class="form-group">
 					<label for="password">Contrase&ntilde;a</label>
+
 					<div class="input-group">
 						<div class="input-group-addon">
 							<i class="fa fa-lock"></i>
@@ -48,7 +47,7 @@ ${message}
 							id="password" placeholder="Contrase&ntilde;a">
 					</div>
 				</div>
-				<button type="submit" id="asasd" class="btn btn-primary center-block">Ingresar</button>
+				<button type="submit" class="btn btn-primary center-block">Ingresar</button>
 			</fieldset>
 		</form>
 	</div>

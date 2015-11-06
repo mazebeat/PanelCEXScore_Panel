@@ -1,12 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns="http://java.sun.com/xml/ns/javaee"
-	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
-	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
-	id="WebApp_ID">
-	<display-name>PanelCustomer_FINAL</display-name>
-
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="PanelCExScore_ID" version="3.0">
+	<display-name>${project.artifactId}</display-name>
+	<description>${project.artifactId}</description>
+	<!-- CONTEXT PARAMS -->
+	<context-param>
+		<param-name>webmaster</param-name>
+		<param-value>dpinto@intelidata.cl</param-value>
+	</context-param>
+	<!-- WELCOME FILE LIST -->
 	<welcome-file-list>
 		<welcome-file>LoginServlet</welcome-file>
 	</welcome-file-list>
+	<!-- SERVLETS -->
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>cl.intelidata.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ChartServlet</servlet-name>
+		<servlet-class>cl.intelidata.servlet.ChartServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ExportServlet</servlet-name>
+		<servlet-class>cl.intelidata.servlet.ExportServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>PanelServlet</servlet-name>
+		<servlet-class>cl.intelidata.servlet.PanelServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>MomentoServlet</servlet-name>
+		<servlet-class>cl.intelidata.servlet.MomentoServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UsuarioServlet</servlet-name>
+		<servlet-class>cl.intelidata.servlet.UsuarioServlet</servlet-class>
+	</servlet>
+	<!-- SERVLET MAPPING -->
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChartServlet</servlet-name>
+		<url-pattern>/ChartServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MomentoServlet</servlet-name>
+		<url-pattern>/MomentoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ExportServlet</servlet-name>
+		<url-pattern>/ExportServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PanelServlet</servlet-name>
+		<url-pattern>/PanelServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UsuarioServlet</servlet-name>
+		<url-pattern>/UsuarioServlet</url-pattern>
+	</servlet-mapping>
+	<!-- SESSION CONFIG -->
+	<session-config>
+		<session-timeout>2</session-timeout>
+	</session-config>
 </web-app>
