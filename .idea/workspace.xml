@@ -6,18 +6,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cl/intelidata/servlet/LoginServlet.class" afterPath="$PROJECT_DIR$/target/classes/cl/intelidata/servlet/LoginServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cl/intelidata/servlet/MomentoServlet.class" afterPath="$PROJECT_DIR$/target/classes/cl/intelidata/servlet/MomentoServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cl/intelidata/servlet/PanelServlet.class" afterPath="$PROJECT_DIR$/target/classes/cl/intelidata/servlet/PanelServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ApiServlet.java" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ApiServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ChartServlet.java" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ChartServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ExportServlet.java" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ExportServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/MomentoServlet.java" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/MomentoServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/PanelServlet.java" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/PanelServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/UsuarioServlet.java" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/UsuarioServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/inc/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/inc/footer.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/panel.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/panel.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CExScore.iws" />
@@ -43,6 +32,11 @@
     <leaf />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="mazebeat &lt;diego.pintod@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -822,12 +816,19 @@
       <workItem from="1447948368452" duration="7718000" />
       <workItem from="1448035554875" duration="786000" />
       <workItem from="1448045104434" duration="4581000" />
-      <workItem from="1448292352267" duration="13000" />
+      <workItem from="1448292352267" duration="138000" />
     </task>
+    <task id="LOCAL-00001" summary="0.0.2">
+      <created>1448292473219</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1448292473219</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45309000" />
+    <option name="totallyTimeSpent" value="45434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -837,16 +838,17 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TCPMON" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1564161" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32789558" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20666163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20666163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24829674" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -859,7 +861,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44281045" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39215687" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -880,6 +881,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="0.0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -923,6 +926,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;field#serialVersionUID#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#MomentoServlet#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#destroy#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#destroy#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#doDelete#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doDelete#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#doGet#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doGet#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#doChart_02_periodo_indicadores#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doChart_02_periodo_indicadores#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="e#4047#4073#0" expanded="false" />
+            <element signature="e#4163#4197#0" expanded="false" />
+            <element signature="e#5361#5401#0" expanded="false" />
+            <element signature="e#9667#9683#0" expanded="false" />
+            <element signature="e#9732#9742#0" expanded="false" />
+            <element signature="docComment;method#doChart_03_benchmark#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doChart_03_benchmark#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="e#11832#11858#0" expanded="false" />
+            <element signature="e#11948#11982#0" expanded="false" />
+            <element signature="e#12813#12879#0" expanded="false" />
+            <element signature="e#17989#18090#0" expanded="false" />
+            <element signature="e#19348#19364#0" expanded="false" />
+            <element signature="e#19413#19423#0" expanded="false" />
+            <element signature="docComment;method#doChart_04_tendencia#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doChart_04_tendencia#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="e#21557#21583#0" expanded="false" />
+            <element signature="e#24523#24556#0" expanded="false" />
+            <element signature="e#27441#27494#0" expanded="false" />
+            <element signature="e#27762#27813#0" expanded="false" />
+            <element signature="e#30428#30481#0" expanded="false" />
+            <element signature="docComment;method#doPost#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doPost#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#doPut#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doPut#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#getServletInfo#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#init#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#init#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#generateMoments#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="e#37898#37921#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -951,6 +995,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="25" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -958,6 +1003,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -965,6 +1011,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="67" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -986,6 +1033,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="757" column="0" selection-start-line="757" selection-start-column="0" selection-end-line="757" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;field#serialVersionUID#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#MomentoServlet#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#destroy#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#destroy#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#doDelete#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doDelete#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#doGet#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doGet#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#doChart_02_periodo_indicadores#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doChart_02_periodo_indicadores#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="e#4047#4073#0" expanded="false" />
+            <element signature="e#4163#4197#0" expanded="false" />
+            <element signature="e#5361#5401#0" expanded="false" />
+            <element signature="e#9667#9683#0" expanded="false" />
+            <element signature="e#9732#9742#0" expanded="false" />
+            <element signature="docComment;method#doChart_03_benchmark#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doChart_03_benchmark#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="e#11832#11858#0" expanded="false" />
+            <element signature="e#11948#11982#0" expanded="false" />
+            <element signature="e#12813#12879#0" expanded="false" />
+            <element signature="e#17989#18090#0" expanded="false" />
+            <element signature="e#19348#19364#0" expanded="false" />
+            <element signature="e#19413#19423#0" expanded="false" />
+            <element signature="docComment;method#doChart_04_tendencia#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doChart_04_tendencia#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="e#21557#21583#0" expanded="false" />
+            <element signature="e#24523#24556#0" expanded="false" />
+            <element signature="e#27441#27494#0" expanded="false" />
+            <element signature="e#27762#27813#0" expanded="false" />
+            <element signature="e#30428#30481#0" expanded="false" />
+            <element signature="docComment;method#doPost#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doPost#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#doPut#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doPut#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#getServletInfo#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#init#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#init#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#generateMoments#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="e#37898#37921#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1021,6 +1109,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="25" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,6 +1117,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="533" column="19" selection-start-line="533" selection-start-column="19" selection-end-line="533" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,6 +1125,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="67" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,6 +1147,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;field#serialVersionUID#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#MomentoServlet#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#destroy#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#destroy#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#doDelete#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doDelete#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#doGet#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doGet#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#doChart_02_periodo_indicadores#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doChart_02_periodo_indicadores#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="e#4047#4073#0" expanded="false" />
+            <element signature="e#4163#4197#0" expanded="false" />
+            <element signature="e#5361#5401#0" expanded="false" />
+            <element signature="e#9667#9683#0" expanded="false" />
+            <element signature="e#9732#9742#0" expanded="false" />
+            <element signature="docComment;method#doChart_03_benchmark#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doChart_03_benchmark#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="e#11832#11858#0" expanded="false" />
+            <element signature="e#11948#11982#0" expanded="false" />
+            <element signature="e#12813#12879#0" expanded="false" />
+            <element signature="e#17989#18090#0" expanded="false" />
+            <element signature="e#19348#19364#0" expanded="false" />
+            <element signature="e#19413#19423#0" expanded="false" />
+            <element signature="docComment;method#doChart_04_tendencia#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doChart_04_tendencia#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="e#21557#21583#0" expanded="false" />
+            <element signature="e#24523#24556#0" expanded="false" />
+            <element signature="e#27441#27494#0" expanded="false" />
+            <element signature="e#27762#27813#0" expanded="false" />
+            <element signature="e#30428#30481#0" expanded="false" />
+            <element signature="docComment;method#doPost#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doPost#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#doPut#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doPut#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#getServletInfo#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#init#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#init#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#generateMoments#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="e#37898#37921#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1091,6 +1223,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,6 +1259,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3771331">
           <caret line="13" column="67" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,6 +1267,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4778157">
           <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="25" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,6 +1289,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1161,6 +1297,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="396" column="41" selection-start-line="396" selection-start-column="29" selection-end-line="396" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,6 +1376,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1673151">
           <caret line="476" column="21" selection-start-line="474" selection-start-column="22" selection-end-line="477" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1246,6 +1384,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52723736">
           <caret line="771" column="0" selection-start-line="771" selection-start-column="0" selection-end-line="771" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;field#serialVersionUID#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#MomentoServlet#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#destroy#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#destroy#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#doDelete#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doDelete#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#doGet#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doGet#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#doChart_02_periodo_indicadores#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doChart_02_periodo_indicadores#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="e#4047#4073#0" expanded="false" />
+            <element signature="e#4163#4197#0" expanded="false" />
+            <element signature="e#5361#5401#0" expanded="false" />
+            <element signature="e#9667#9683#0" expanded="false" />
+            <element signature="e#9732#9742#0" expanded="false" />
+            <element signature="docComment;method#doChart_03_benchmark#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doChart_03_benchmark#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="e#11832#11858#0" expanded="false" />
+            <element signature="e#11948#11982#0" expanded="false" />
+            <element signature="e#12813#12879#0" expanded="false" />
+            <element signature="e#17989#18090#0" expanded="false" />
+            <element signature="e#19348#19364#0" expanded="false" />
+            <element signature="e#19413#19423#0" expanded="false" />
+            <element signature="docComment;method#doChart_04_tendencia#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doChart_04_tendencia#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="e#21557#21583#0" expanded="false" />
+            <element signature="e#24523#24556#0" expanded="false" />
+            <element signature="e#27441#27494#0" expanded="false" />
+            <element signature="e#27762#27813#0" expanded="false" />
+            <element signature="e#30428#30481#0" expanded="false" />
+            <element signature="docComment;method#doPost#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doPost#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#doPut#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#doPut#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#getServletInfo#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#init#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="method#init#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="docComment;method#generateMoments#0;class#MomentoServlet#0" expanded="false" />
+            <element signature="e#37898#37921#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1253,6 +1432,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.078350514">
           <caret line="641" column="56" selection-start-line="641" selection-start-column="56" selection-end-line="641" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
