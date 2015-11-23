@@ -1,5 +1,15 @@
 package cl.intelidata.servlet;
 
+import cl.intelidata.util.DatabaseTools;
+import cl.intelidata.util.Text;
+import cl.intelidata.util.jspmkrfn;
+import org.apache.log4j.Logger;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.ResultSet;
@@ -8,18 +18,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.Locale;
-
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-
-import org.apache.log4j.Logger;
-
-import cl.intelidata.util.DatabaseTools;
-import cl.intelidata.util.Text;
-import cl.intelidata.util.jspmkrfn;
 
 class ApiServlet extends HttpServlet {
     private static final Logger logger = Logger.getLogger(ApiServlet.class);
@@ -101,8 +99,8 @@ class ApiServlet extends HttpServlet {
         ResultSet rs = null;
         Statement stmt = null;
 
-        String ultimo_periodo_f = null;
-        String ultimo_periodo = null;
+        String ultimo_periodo_f = "";
+        String ultimo_periodo = "";
 
         try {
             stmt = dbtools.getConexion().createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
@@ -230,7 +228,7 @@ class ApiServlet extends HttpServlet {
 
         String login = (String) session.getAttribute("Panel_" + cl.intelidata.util.Text.ProyectoID00 + "_status");
 
-        String message = null;
+        String message = "";
         // String context = request.getContextPath();
 
         try {
@@ -257,7 +255,7 @@ class ApiServlet extends HttpServlet {
 
                 logger.warn("LOGIN SESSION FAIL");
 
-                message = "Sesion expirada!..";
+                message = "Sesion expirada!...";
 
                 request.setAttribute("message", "<div class=\"row\">" + "<div class=\"col-center-block col-md-4\">" + "<div class=\"text-left alert alert-warning\" style=\"text-align: left;\">"
                                 + "<button type=\"button\" class=\"close\" data-dismiss=\"alert\">&times;</button>" + message + "</div>" + "</div>" + "</div>");
@@ -291,9 +289,9 @@ class ApiServlet extends HttpServlet {
      * @return
      */
     public static String getPeriodsQuery(String periodo_0, String periodo_1, String periodo_2, String periodo_3) {
-        String temp = null;
-        String temp2 = null;
-        String sql = null;
+        String temp = "";
+        String temp2 = "";
+        String sql = "";
 
         try {
             if (periodo_0 != null && periodo_1 != null) {
@@ -309,7 +307,7 @@ class ApiServlet extends HttpServlet {
                 }
             }
 
-            if (periodo_2 != null && periodo_3 != null) {
+                if (periodo_2 != null && periodo_3 != null) {
                 if (periodo_2 != "" && periodo_3 != "") {
                     if (periodo_2.equals(periodo_3)) {
                         temp2 = " WHEN DATE_FORMAT(cliente_respuesta.ultima_respuesta,'%Y-%m') = '" + periodo_3 + "' THEN 'ANTERIOR' ";
@@ -345,9 +343,9 @@ class ApiServlet extends HttpServlet {
      * @return
      */
     public static String getPeriodsQueryNPS(String periodo_0, String periodo_1, String periodo_2, String periodo_3) {
-        String temp = null;
-        String temp2 = null;
-        String sql = null;
+        String temp = "";
+        String temp2 = "";
+        String sql = "";
 
         try {
             if (periodo_0 != null && periodo_1 != null) {
@@ -397,9 +395,9 @@ class ApiServlet extends HttpServlet {
      * @return
      */
     public static String getFiltersQuery(String periodo_0, String periodo_1, String periodo_2, String periodo_3) {
-        String temp = null;
-        String temp2 = null;
-        String filter = null;
+        String temp = "";
+        String temp2 = "";
+        String filter = "";
 
         try {
             if (periodo_0 != null && periodo_1 != null) {
@@ -453,9 +451,9 @@ class ApiServlet extends HttpServlet {
      * @return
      */
     public static String getFiltersQueryNPS(String periodo_0, String periodo_1, String periodo_2, String periodo_3) {
-        String temp = null;
-        String temp2 = null;
-        String filter = null;
+        String temp = "";
+        String temp2 = "";
+        String filter = "";
 
         try {
             if (periodo_0 != null && periodo_1 != null) {
@@ -653,12 +651,12 @@ class ApiServlet extends HttpServlet {
      * @return
      */
     public static String genOne(int Largo_Array, String[][] arrayPreguntas, int ENCONTRO_ANTERIOR, Locale locale) {
-        String html_preg_etiqueta = null;
-        String html_preg = null;
+        String html_preg_etiqueta = "";
+        String html_preg = "";
 
-        String etiqueta_porc_7 = null;
-        String etiqueta_porc_4 = null;
-        String etiqueta_porc_nps = null;
+        String etiqueta_porc_7 = "";
+        String etiqueta_porc_4 = "";
+        String etiqueta_porc_nps = "";
 
         Double nps_7 = 0.0;
         Double nps_5 = 0.0;
@@ -767,9 +765,9 @@ class ApiServlet extends HttpServlet {
 
         boolean ENCONTRO_ANTERIOR = false;
 
-        String etiqueta_porc_7 = null;
-        String etiqueta_porc_4 = null;
-        String etiqueta_porc_nps = null;
+        String etiqueta_porc_7 = "";
+        String etiqueta_porc_4 = "";
+        String etiqueta_porc_nps = "";
 
         Double nps_7 = 0.0;
         Double nps_5 = 0.0;
@@ -783,10 +781,10 @@ class ApiServlet extends HttpServlet {
         Double porc_7_2 = 0.0;
         Double porc_4_2 = 0.0;
 
-        String porc_nps = null;
+        String porc_nps = "";
         // String porc_nps_2 = "";
-        String porc_promotores = null;
-        String porc_detractores = null;
+        String porc_promotores = "";
+        String porc_detractores = "";
 
         String out = "";
 
@@ -1028,8 +1026,8 @@ class ApiServlet extends HttpServlet {
 
         // String porc_nps = "";
         // String porc_nps_2 = "";
-        String porc_promotores = null;
-        String porc_detractores = null;
+        String porc_promotores = "";
+        String porc_detractores = "";
 
         String output = "";
 
@@ -1162,10 +1160,10 @@ class ApiServlet extends HttpServlet {
         ResultSet rs = null;
         Statement stmt = null;
 
-        String etiqueta_porc_7 = null;
-        // String etiqueta_porc_4 =null;
-        // String etiqueta_porc_nps = null;
-        String porc_lealtad = null;
+        String etiqueta_porc_7 = "";
+        // String etiqueta_porc_4 = "";
+        // String etiqueta_porc_nps = "";
+        String porc_lealtad = "";
 
         Double cant_leal = 0.0;
         Double cant_leal_no = 0.0;
@@ -1270,7 +1268,7 @@ class ApiServlet extends HttpServlet {
         // SESSION
         HttpSession session = request.getSession();
         session.setMaxInactiveInterval(30 * 60);
-        // String html = null;
+        // String html = "";
 
         DatabaseTools dbtools = new DatabaseTools();
         dbtools.connectDB();
@@ -1593,7 +1591,7 @@ class ApiServlet extends HttpServlet {
         if (message != null && message.length() > 0) {
             return "<div id='alerta_panel' class='alert alert-warning alert-dismissible' role='alert'>"
                             + "\t<button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>\n"
-                            + "\t<strong>Atenci&oacute;!</strong>\n"
+                            + "\t<strong>Atenci&oacute;n!</strong> \n"
                             + "\t" + message + "\n"
                             + "</div>\n"
                             + "<script>\n"
@@ -1613,7 +1611,7 @@ class ApiServlet extends HttpServlet {
         if (message != null && message.length() > 0) {
             return "<div id='alerta_panel' class='alert alert-danger alert-dismissible' role='alert'>"
                             + "\t<button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button>\n"
-                            + "\t<strong>Error!</strong>\n"
+                            + "\t<strong>Error!</strong>\n "
                             + "\t" + message + "\n"
                             + "</div>\n"
                             + "<script>\n"

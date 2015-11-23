@@ -309,11 +309,11 @@ public class ChartServlet extends HttpServlet {
 
                     html += "\t\t\t<li>\n" + "<strong>" + EntityDecoder.entityToHtml(categoria) + "</strong>\n" + "<br>\n" + EntityDecoder.entityToHtml(comentario) + "\n</li>\n";
                 }
-                
+
                 if(!html.endsWith("<hr>\n")){
                     html += "\t\t</ul>\n";
                     html += "\t</div>\n";
-                    html += "</div>\n";                    
+                    html += "</div>\n";
                     count = 0;
                 }
 
@@ -346,7 +346,7 @@ public class ChartServlet extends HttpServlet {
      * FIRST ROW - THIRD BOX DOCHART_01_ACUMULADOS ---------------------- FALTA
      * REVISAR EL TEMA QUE DATOS VA A MOSTRAR YA QUE SOLO SE TIENE UN SOLO
      * CLIENTE
-     * 
+     *
      * @param request
      * @param response
      */
@@ -591,7 +591,7 @@ public class ChartServlet extends HttpServlet {
 
     /**
      * DOCHART_02_PERIODO_INDICADORES ----------------------------- OK
-     * 
+     *
      * @param request
      * @param response
      */
@@ -757,10 +757,10 @@ public class ChartServlet extends HttpServlet {
 
     /**
      * COMPETENCIA DATOS DOCHART_03_BENCHMARK
-     * 
+     *
      * @param request
      * @param response
-     * 
+     *
      * @throws java.io.IOException
      */
     public void doChart_03_benchmark(HttpServletRequest request, HttpServletResponse response) throws java.io.IOException {
@@ -942,10 +942,10 @@ public class ChartServlet extends HttpServlet {
 
     /**
      * DOCHART_00_MUESTRA ----------------------------- OK
-     * 
+     *
      * @param request
      * @param response
-     * 
+     *
      * @throws ServletException
      * @throws IOException
      * @throws SQLException
@@ -1111,10 +1111,10 @@ public class ChartServlet extends HttpServlet {
 
     /**
      * MODAL COMMENT DOCHART_00_COMENTARIOS
-     * 
+     *
      * @param request
      * @param response
-     * 
+     *
      * @throws ServletException
      * @throws IOException
      * @throws SQLException

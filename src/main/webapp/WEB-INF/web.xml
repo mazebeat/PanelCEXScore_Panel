@@ -3,13 +3,15 @@
 	xmlns="http://java.sun.com/xml/ns/javaee"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	id="PanelCExScore_ID" version="3.0">
-	<display-name>${project.artifactId}</display-name>
-	<description>${project.artifactId}</description>
+	<display-name>${project.artifactId}-${project.version}</display-name>
+	<description>${project.artifactId}-${project.version}</description>
+	
 	<!-- CONTEXT PARAMS -->
-	<context-param>
-		<param-name>webmaster</param-name>
-		<param-value>dpinto@intelidata.cl</param-value>
-	</context-param>
+	<!--<context-param>-->
+		<!--<param-name>webmaster</param-name>-->
+		<!--<param-value>dpinto@intelidata.cl</param-value>-->
+	<!--</context-param>-->
+
 	<!-- WELCOME FILE LIST -->
 	<welcome-file-list>
 		<welcome-file>LoginServlet</welcome-file>

@@ -2,6 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cl.intelidata</groupId>
     <version>0.0.2-SNAPSHOT</version>
+    <artifactId>CExScore</artifactId>
     <packaging>war</packaging>
 
     <name>CExScore</name>
@@ -13,31 +14,30 @@
     </properties>
 
     <scm>
-        <connection>scm:svn:https://192.168.1.110:8443/svn/Codigo_fuente/trunk/${project.artifactId}</connection>
-        <developerConnection>scm:svn:https://192.168.1.110:8443/svn/Codigo_fuente/trunk/${project.artifactId}
-        </developerConnection>
-        <url>scm:svn:https://192.168.1.110:8443/svn/Codigo_fuente/trunk/${project.artifactId}</url>
-    </scm>
+		<connection>scm:svn:https://192.168.1.110:8443/svn/Codigo_fuente/trunk/${project.artifactId}</connection>
+		<developerConnection>scm:svn:https://192.168.1.110:8443/svn/Codigo_fuente/trunk/${project.artifactId}</developerConnection>
+		<url>scm:svn:https://192.168.1.110:8443/svn/Codigo_fuente/trunk/${project.artifactId}</url>
+	</scm>
 
-    <distributionManagement>
-        <repository>
-            <id>InteliReleases</id>
-            <name>Internal Releases</name>
-            <url>http://192.168.1.100:8081/nexus/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>InteliSnapshots</id>
-            <name>Internal Snapshots</name>
-            <url>http://192.168.1.100:8081/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+	<distributionManagement>
+		<repository>
+			<id>InteliReleases</id>
+			<name>Internal Releases</name>
+			<url>http://192.168.1.100:8081/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>InteliSnapshots</id>
+			<name>Internal Snapshots</name>
+			<url>http://192.168.1.100:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 
-    <repositories>
-        <repository>
-            <id>InteilRepo</id>
-            <url>http://192.168.1.100:8081/nexus/content/groups/public</url>
-        </repository>
-    </repositories>
+   <repositories>
+		<repository>
+			<id>InteilRepo</id>
+			<url>http://192.168.1.100:8081/nexus/content/groups/public</url>
+		</repository>
+	</repositories>
 
     <dependencies>
         <dependency>
@@ -145,5 +145,4 @@
             </plugin>
         </plugins>
     </build>
-    <artifactId>CExScore</artifactId>
 </project>

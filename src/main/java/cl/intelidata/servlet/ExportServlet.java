@@ -1,24 +1,21 @@
 package cl.intelidata.servlet;
 
+import cl.intelidata.util.DatabaseTools;
+import cl.intelidata.util.Text;
+import cl.intelidata.util.jspmkrfn;
+import org.apache.log4j.Logger;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Locale;
-
-import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-
-import org.apache.log4j.Logger;
-
-import cl.intelidata.util.DatabaseTools;
-import cl.intelidata.util.Text;
-import cl.intelidata.util.jspmkrfn;
 
 public class ExportServlet extends HttpServlet {
     private static final Logger logger = Logger.getLogger(ExportServlet.class);
@@ -256,13 +253,19 @@ public class ExportServlet extends HttpServlet {
                             + "\tCASE WHEN ISNULL(pregunta_cabecera.numero_pregunta) THEN '' ELSE pregunta_cabecera.numero_pregunta END AS numero_pregunta, \n"
                             + "\t-- CASE WHEN ISNULL(pregunta_cabecera.descripcion_1) THEN '' ELSE pregunta_cabecera.descripcion_1 END AS descripcion_1, \n"
                             + "\tCASE WHEN ISNULL(respuesta_detalle.valor1) THEN '' ELSE respuesta_detalle.valor1 END AS valor1, \n"
-                            + "\tCASE WHEN ISNULL(respuesta_detalle.valor2) THEN '' ELSE respuesta_detalle.valor2 END AS valor2 \n" + "FROM respuesta_detalle \n"
+                            + "\tCASE WHEN ISNULL(respuesta_detalle.valor2) THEN '' ELSE respuesta_detalle.valor2 END AS valor2 \n"
+                            + "FROM respuesta_detalle \n"
                             + "INNER JOIN  respuesta ON respuesta.id_respuesta = respuesta_detalle.id_respuesta \n"
                             + "INNER JOIN cliente_respuesta ON cliente_respuesta.id_respuesta = respuesta.id_respuesta \n" + "LEFT JOIN usuario ON respuesta.id_usuario = usuario.id_usuario \n"
-                            + "INNER JOIN canal ON respuesta.id_canal = canal.id_canal \n" + "INNER JOIN estado ON cliente_respuesta.id_estado = estado.id_estado \n"
+                            + "INNER JOIN canal ON respuesta.id_canal = canal.id_canal \n"
+                            + "INNER JOIN estado ON cliente_respuesta.id_estado = estado.id_estado \n"
                             + "INNER JOIN pregunta_cabecera ON respuesta.id_pregunta_cabecera = pregunta_cabecera.id_pregunta_cabecera \n"
-                            + "INNER JOIN momento_encuesta ON respuesta.id_momento = momento_encuesta.id_momento \n" + "WHERE " + filtros + "respuesta.id_cliente = " + ID_CLIENTE + "\n"
-                            + filterMoment + " \n" + "AND pregunta_cabecera.id_encuesta = momento_encuesta.id_encuesta \n"
+                            + "INNER JOIN momento_encuesta ON momento_encuesta.id_cliente = respuesta.id_cliente \n"
+                            + " AND momento_encuesta.id_momento = respuesta.id_momento "
+                            + "WHERE " + filtros + "respuesta.id_cliente = " + ID_CLIENTE
+                            + " AND momento_encuesta.id_cliente = respuesta.id_cliente\n"
+                            + filterMoment + " \n"
+                            + "AND pregunta_cabecera.id_encuesta = momento_encuesta.id_encuesta \n"
                             + "ORDER BY cliente_respuesta.id_cliente_respuesta, respuesta.id_pregunta_cabecera";
 
             if (NOMBRE_MOMENTO != "") {

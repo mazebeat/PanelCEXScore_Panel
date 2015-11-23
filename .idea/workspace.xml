@@ -1,429 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9740ae0b-a023-4147-958f-75e04cc81f6a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/customertrigger-score.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/data/data.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/modules/modules.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.tern-project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ApiServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CExScore.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/CExScore_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/CExScore_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/util/DatabaseTools.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/util/EntityDecoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ExportServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/util/FileTools.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/util/PropertiesTools.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/util/Text.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/UsuarioServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.settings/com.genutiec.eclipse.core.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/datos.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/findbugs-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.matchHeight-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/util/jspmkrfn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\.idea\artifacts\PanelCustomer_FINAL_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\.idea\artifacts\PanelCustomer_FINAL_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\PanelCustomer_FINAL.iml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\java\cl\intelidata\conf\Text.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\java\cl\intelidata\otros\jspmkrfn.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\java\cl\intelidata\servlet\TestServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\java\cl\intelidata\tools\DatabaseTools.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\java\cl\intelidata\tools\FileTools.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\java\cl\intelidata\tools\PropertiesTools.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\data\00_comentarios.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\data\00_muestra.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\data\01_acumulado.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\data\01_acumulado_tendencia.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\data\02_periodo_indicadores.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\data\03_benchmark.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\data\04_tendencia.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\data\05_facultades.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\data\06_exportar.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\img\excel-file.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\img\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\img\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\img\logo20.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\img\logo_cliente.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\img\logo_cliente_completo.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\img\logo_cliente_formato.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\js\bootstrap-typeahead.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\modules\blocks_campus.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\modules\blocks_facultad.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\modules\blocks_sedesFacultad.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT.war" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\META-INF\context.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\classes\cl\intelidata\conf\Text.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\classes\cl\intelidata\otros\jspmkrfn.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\classes\cl\intelidata\servlet\ChartServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\classes\cl\intelidata\servlet\LoginServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\classes\cl\intelidata\servlet\MomentoServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\classes\cl\intelidata\servlet\PanelServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\classes\cl\intelidata\servlet\TestServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\classes\cl\intelidata\tools\DatabaseTools.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\classes\cl\intelidata\tools\FileTools.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\classes\cl\intelidata\tools\PropertiesTools.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\lib\javax.servlet-api-3.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\lib\jstl-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\lib\log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\lib\mysql-connector-java-5.1.31.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\lib\slf4j-api-1.7.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\lib\slf4j-log4j12-1.7.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\lib\standard-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\css\mainstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\blog-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\fusionchart-xt-doc-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\fusioncharts-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\fusioncharts-suite-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\homepage-device-img.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\left-bracket.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\logo-docs-landing-library-only.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\logo-main-footer.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\logo-main-header.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\logo-main-header@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\logo-maps-landing.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\nav-arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\open-folder.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\or-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\right-bracket.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\section-divider.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\support-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\top-repeat-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\white-texture.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\img\world-map.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\URI.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\bootstrap-dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\bootstrap-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\jquery.localScroll.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\jquery.scrollTo.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\jquery.sunlight.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\prettify\Apache-License-2.0.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\prettify\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\prettify\lang-css.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\prettify\prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\sunlight-plugin.doclinks.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\sunlight-plugin.linenumbers.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\sunlight-plugin.menu.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\sunlight.javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\sunlight.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\sunlight.xml-min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\toc.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\topnav.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\assets\scripts\vkbeautify.0.99.00.beta.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\AngularGauge.swf" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\HLinearGauge.swf" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\MSCombi2D.swf" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\MSLine.swf" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\css\mainstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\blog-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\fusionchart-xt-doc-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\fusioncharts-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\fusioncharts-suite-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\homepage-device-img.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\left-bracket.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\logo-docs-landing-library-only.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\logo-main-footer.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\logo-main-header.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\logo-main-header@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\logo-maps-landing.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\nav-arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\open-folder.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\or-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\right-bracket.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\section-divider.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\support-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\top-repeat-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\white-texture.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\img\world-map.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\URI.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\bootstrap-dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\bootstrap-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\jquery.localScroll.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\jquery.scrollTo.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\jquery.sunlight.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\prettify\Apache-License-2.0.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\prettify\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\prettify\lang-css.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\prettify\prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\sunlight-plugin.doclinks.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\sunlight-plugin.linenumbers.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\sunlight-plugin.menu.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\sunlight.javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\sunlight.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\sunlight.xml-min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\toc.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\topnav.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\charts\assets\scripts\vkbeautify.0.99.00.beta.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\Nueva carpeta\bootstrap-classic.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\Nueva carpeta\bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\Nueva carpeta\charisma-app.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\bootstrap-cerulean.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\bootstrap-classic.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\bootstrap-paper.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\charisma-app.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\chosen.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\colorbox.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\cs.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\elfinder.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\elfinder.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\frontend.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\fullcalendar.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\fullcalendar.print.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\jquery-ui-1.8.21.custom.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\jquery.cleditor.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\jquery.iphone.toggle.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\jquery.noty.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\noty_theme_default.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\opa-icons.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\uniform.default.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\css\uploadify.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\data\00_comentarios.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\data\00_muestra.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\data\01_acumulado.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\data\01_acumulado_tendencia.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\data\02_periodo_indicadores.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\data\03_benchmark.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\data\04_tendencia.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\data\05_facultades.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\data\06_exportar.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ajax-loaders\ajax-loader-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ajax-loaders\ajax-loader-2.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ajax-loaders\ajax-loader-3.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ajax-loaders\ajax-loader-4.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ajax-loaders\ajax-loader-5.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ajax-loaders\ajax-loader-6.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ajax-loaders\ajax-loader-7.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ajax-loaders\ajax-loader-8.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\arrows-active.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\arrows-normal.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\bar.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\bar_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\bar_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\bg-input-focus.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\bg-input.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\border.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\buttons.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\cancel-off.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\cancel-on.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\chosen-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\controls.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\corazon.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\crop.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\customertrigger.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\dialogs.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\error_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\excel-file.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ico_like.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ico_like2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ico_nolike.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ico_unlike2.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\icons-big.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\icons-small.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\iphone-style-checkboxes\off.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\iphone-style-checkboxes\on.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\iphone-style-checkboxes\slider.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\iphone-style-checkboxes\slider_center.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\iphone-style-checkboxes\slider_left.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\iphone-style-checkboxes\slider_right.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\loading_background.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\logo20.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\logo_cliente.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\logo_cliente_completo.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\logo_cliente_formato.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-black16.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-black32.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-blue16.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-blue32.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-color16.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-color32.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-darkgray16.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-darkgray32.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-gray16.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-gray32.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-green16.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-green32.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-orange16.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-orange32.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-red16.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-red32.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-white16.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\opa-icons-white32.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\progress.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\qrcode.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\qrcode136.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\quicklook-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\quicklook-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\resize.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\search-icon-blue.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\spinner-mini.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\star-half.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\star-off.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\star-on.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\tmp\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\tmp\avance.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\tmp\satisfaccion.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\tmp\tendencia.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\toolbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\toolbar.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\img\uploadify-cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\inc\ProyectoID00.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\inc\db.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\inc\footer.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\inc\header.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\inc\header2.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\inc\header_cabecera.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js2\fusioncharts.charts.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js2\fusioncharts.gantt.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js2\fusioncharts.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js2\fusioncharts.maps.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js2\fusioncharts.powercharts.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js2\fusioncharts.widgets.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js2\maps\fusioncharts.usa.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js2\maps\fusioncharts.world.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js2\maps\readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js2\themes\fusioncharts.theme.carbon.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js2\themes\fusioncharts.theme.fint.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js2\themes\fusioncharts.theme.ocean.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js2\themes\fusioncharts.theme.zune.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\bootstrap-alert.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\bootstrap-button.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\bootstrap-carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\bootstrap-collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\bootstrap-dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\bootstrap-modal.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\bootstrap-popover.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\bootstrap-scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\bootstrap-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\bootstrap-toggle.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\bootstrap-tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\bootstrap-tour.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\bootstrap-transition.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\bootstrap-typeahead.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\charisma.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\ew.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\excanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\fullcalendar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\fusioncharts.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery-1.7.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery-ui-1.8.21.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.autogrow-textarea.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.chosen.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.cleditor.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.colorbox.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.dataTables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.elfinder.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.flot.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.flot.pie.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.flot.resize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.flot.stack.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.history.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.iphone.toggle.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.noty.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.raty.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.uniform.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\jquery.uploadify-3.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\panel.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\js\propios.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\logout.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\modules\accumulated_results.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\modules\blocks_campus.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\modules\blocks_facultad.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\modules\blocks_sedesFacultad.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\modules\filters.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\modules\module1.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\modules\module2.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\modules\result_last_period.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\modules\show_progress.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\PanelCustomer_FINAL-0.0.1-SNAPSHOT\panel.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\classes\cl\intelidata\conf\Text.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\classes\cl\intelidata\otros\jspmkrfn.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\classes\cl\intelidata\servlet\TestServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\classes\cl\intelidata\tools\DatabaseTools.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\classes\cl\intelidata\tools\FileTools.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Projects\Java\CExScore\target\classes\cl\intelidata\tools\PropertiesTools.class" afterPath="" />
+    <list default="true" id="5e5d837a-add7-44cf-8268-a1ff8f304d74" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cl/intelidata/servlet/ChartServlet.class" afterPath="$PROJECT_DIR$/target/classes/cl/intelidata/servlet/ChartServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cl/intelidata/servlet/LoginServlet.class" afterPath="$PROJECT_DIR$/target/classes/cl/intelidata/servlet/LoginServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cl/intelidata/servlet/MomentoServlet.class" afterPath="$PROJECT_DIR$/target/classes/cl/intelidata/servlet/MomentoServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cl/intelidata/servlet/PanelServlet.class" afterPath="$PROJECT_DIR$/target/classes/cl/intelidata/servlet/PanelServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/img/customertrigger.png" afterPath="$PROJECT_DIR$/src/main/webapp/img/customertrigger.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ApiServlet.java" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ApiServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ChartServlet.java" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ChartServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/LoginServlet.java" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/LoginServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ExportServlet.java" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ExportServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/MomentoServlet.java" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/MomentoServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/PanelServlet.java" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/PanelServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/modules/accumulated_results.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/modules/accumulated_results.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/inc/db.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/inc/db.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/modules/filters.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/modules/filters.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/UsuarioServlet.java" afterPath="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/UsuarioServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/inc/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/inc/footer.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/frontend.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/frontend.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js2/fusioncharts.powercharts.js" afterPath="$PROJECT_DIR$/src/main/webapp/js2/fusioncharts.powercharts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/inc/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/inc/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/inc/header2.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/inc/header2.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/inc/header_cabecera.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/inc/header_cabecera.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/logout.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/logout.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/modules/module1.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/modules/module1.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/modules/module2.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/modules/module2.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/opa-icons.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/opa-icons.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/panel.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/panel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/panel.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/panel.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/propios.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/propios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/modules/result_last_period.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/modules/result_last_period.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/modules/show_progress.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/modules/show_progress.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\Projects\Java\CExScore\.idea\libraries\Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
-      <change type="MOVED" beforePath="E:\Projects\Java\CExScore\src\main\webapp\css\bootstrap-paper.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-lumen.css" />
     </list>
     <ignored path="CExScore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -445,114 +40,7 @@
     <favorites_list name="CExScore" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="panel.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/panel.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="344" column="47" selection-start-line="344" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
-              <folding>
-                <marker date="1443815670804" expanded="true" signature="13925:13936" placeholder="..." />
-                <marker date="1443815670804" expanded="true" signature="14035:14046" placeholder="..." />
-                <marker date="1443815670804" expanded="true" signature="14303:14314" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result_last_period.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/modules/result_last_period.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="0" selection-start-line="21" selection-start-column="3" selection-end-line="40" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../FixHtmlMovistar/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/footer.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="29" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChartServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ChartServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="843" column="37" selection-start-line="843" selection-start-column="37" selection-end-line="843" selection-end-column="37" />
-              <folding>
-                <element signature="e#979#980#0" expanded="false" />
-                <element signature="e#1002#1003#0" expanded="false" />
-                <marker date="1446571633387" expanded="true" signature="7439:8195" placeholder="SELECT \n\tm..." />
-                <marker date="1446571633387" expanded="true" signature="16992:17066" placeholder="SELECT \n np..nps..." />
-                <marker date="1446571633387" expanded="true" signature="17128:18491" placeholder="SELECT \n\tS..id_cliente..." />
-                <marker date="1446571633387" expanded="true" signature="17312:18427" placeholder="SELECT respu..cliente..." />
-                <marker date="1446571633387" expanded="true" signature="17892:18205" placeholder="SELECT clien..cliente_respuesta..." />
-                <marker date="1446571633387" expanded="true" signature="18535:20468" placeholder="SELECT \n\tn..numero_pregunta..." />
-                <marker date="1446571633387" expanded="true" signature="18679:20382" placeholder="SELECT \n\t\..respuesta..." />
-                <marker date="1446571633387" expanded="true" signature="19673:19957" placeholder="SELECT clien..cliente_respuesta..." />
-                <marker date="1446571633387" expanded="true" signature="50602:50874" placeholder="SELECT \t'Mu..cs_periodos..." />
-                <marker date="1446571633387" expanded="true" signature="50602:51284" placeholder="SELECT \t'Mu..." />
-                <marker date="1446571633387" expanded="true" signature="50914:51284" placeholder="SELECT \t'En..cliente_respuesta..." />
-                <marker date="1446571633387" expanded="true" signature="58745:59490" placeholder="SELECT \n\tm..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApiServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ApiServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="292" column="25" selection-start-line="292" selection-start-column="25" selection-end-line="292" selection-end-column="25" />
-              <folding>
-                <element signature="e#990#991#0" expanded="false" />
-                <element signature="e#1013#1014#0" expanded="false" />
-                <element signature="e#5160#5169#0" expanded="false" />
-                <marker date="1443815094031" expanded="true" signature="3059:3153" placeholder="SELECT DISTI..cs_periodos..." />
-                <marker date="1443815094031" expanded="true" signature="4701:4778" placeholder="SELECT * FRO..cs_perfiles_permisos..." />
-                <marker date="1443815094031" expanded="true" signature="54203:54867" placeholder="SELECT \n\tm..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -565,8 +53,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/inc/footer.jsp" />
-        <option value="$PROJECT_DIR$/../FixHtmlMovistar/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ChartServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/UsuarioServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/panel.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ApiServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/PanelServlet.java" />
+        <option value="C:/apps/PanelCEXScore/config/PanelCEXScore.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/MomentoServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ExportServlet.java" />
       </list>
     </option>
   </component>
@@ -574,11 +72,23 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -611,10 +121,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Profiles" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProfilesNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -656,12 +162,17 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="CExScore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -674,9 +185,118 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CExScore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CExScore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CExScore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CExScore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CExScore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CExScore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CExScore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CExScore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intelidata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CExScore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CExScore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intelidata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -688,12 +308,76 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FixHtmlMovistar" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Clicks" />
     <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.63" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_CExScore" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53632" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -984,6 +668,9 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="cloudbees-deploy" factoryName="CloudBees Deployment">
+      <method />
+    </configuration>
     <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="" />
@@ -1034,93 +721,149 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="false" name="Tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.63" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="CExScore:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_CExScore" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53632" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CExScore:war" />
+        </option>
+      </method>
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
-    <configuration>C:\Users\Maze\AppData\Roaming\Subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9740ae0b-a023-4147-958f-75e04cc81f6a" name="Default" comment="" />
-      <created>1446571309820</created>
+      <changelist id="5e5d837a-add7-44cf-8268-a1ff8f304d74" name="Default" comment="" />
+      <created>1447260734957</created>
       <option name="number" value="Default" />
-      <updated>1446571309820</updated>
-      <workItem from="1446571315715" duration="3816000" />
-      <workItem from="1446671524569" duration="768000" />
-      <workItem from="1446733186009" duration="911000" />
-      <workItem from="1446820955700" duration="1138000" />
-      <workItem from="1446837039178" duration="414000" />
+      <updated>1447260734957</updated>
+      <workItem from="1447260742034" duration="745000" />
+      <workItem from="1447267634554" duration="2155000" />
+      <workItem from="1447344588922" duration="10185000" />
+      <workItem from="1447412192925" duration="526000" />
+      <workItem from="1447419053869" duration="3468000" />
+      <workItem from="1447636274241" duration="8153000" />
+      <workItem from="1447671746092" duration="174000" />
+      <workItem from="1447672140202" duration="34000" />
+      <workItem from="1447723156369" duration="1636000" />
+      <workItem from="1447792863395" duration="2035000" />
+      <workItem from="1447874689201" duration="3100000" />
+      <workItem from="1447948368452" duration="7718000" />
+      <workItem from="1448035554875" duration="786000" />
+      <workItem from="1448045104434" duration="4581000" />
+      <workItem from="1448292352267" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7047000" />
+    <option name="totallyTimeSpent" value="45309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Java2SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java2SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TCPMON" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.501634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TCPMON" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1564161" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32789558" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20666163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24829674" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Log4jMonitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Log4jMonitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44281045" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39215687" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Log4jMonitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java2SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TCPMON" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1134,410 +877,389 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="0.0.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0.01" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/PanelServlet.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ExportServlet.java</url>
+          <line>239</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="24" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/UsuarioServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/MomentoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ApiServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="290" column="25" selection-start-line="290" selection-start-column="25" selection-end-line="290" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="305" column="0" selection-start-line="305" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/util/DatabaseTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/panel.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="344" column="47" selection-start-line="344" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
-          <folding>
-            <marker date="1443815670804" expanded="true" signature="13925:13936" placeholder="..." />
-            <marker date="1443815670804" expanded="true" signature="14035:14046" placeholder="..." />
-            <marker date="1443815670804" expanded="true" signature="14303:14314" placeholder="..." />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/modules/result_last_period.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ChartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="933" column="28" selection-start-line="933" selection-start-column="28" selection-end-line="933" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/UsuarioServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="303" column="0" selection-start-line="303" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/MomentoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="757" column="0" selection-start-line="757" selection-start-column="0" selection-end-line="757" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ApiServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="139" column="22" selection-start-line="139" selection-start-column="21" selection-end-line="139" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="305" column="0" selection-start-line="305" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/util/DatabaseTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/panel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/panel.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="533" column="19" selection-start-line="533" selection-start-column="19" selection-end-line="533" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/modules/result_last_period.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ChartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="933" column="28" selection-start-line="933" selection-start-column="28" selection-end-line="933" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/UsuarioServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="303" column="0" selection-start-line="303" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/MomentoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ApiServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="139" column="22" selection-start-line="139" selection-start-column="21" selection-end-line="139" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="305" column="0" selection-start-line="305" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/util/DatabaseTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/panel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="21" selection-start-column="3" selection-end-line="40" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.08528428">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FixHtmlMovistar/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3411371">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/panel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/header.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/util/DatabaseTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="29" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ChartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="843" column="37" selection-start-line="843" selection-start-column="37" selection-end-line="843" selection-end-column="37" />
-          <folding>
-            <element signature="e#979#980#0" expanded="false" />
-            <element signature="e#1002#1003#0" expanded="false" />
-            <marker date="1446571633387" expanded="true" signature="7439:8195" placeholder="SELECT \n\tm..." />
-            <marker date="1446571633387" expanded="true" signature="16992:17066" placeholder="SELECT \n np..nps..." />
-            <marker date="1446571633387" expanded="true" signature="17128:18491" placeholder="SELECT \n\tS..id_cliente..." />
-            <marker date="1446571633387" expanded="true" signature="17312:18427" placeholder="SELECT respu..cliente..." />
-            <marker date="1446571633387" expanded="true" signature="17892:18205" placeholder="SELECT clien..cliente_respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="18535:20468" placeholder="SELECT \n\tn..numero_pregunta..." />
-            <marker date="1446571633387" expanded="true" signature="18679:20382" placeholder="SELECT \n\t\..respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="19673:19957" placeholder="SELECT clien..cliente_respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="50602:50874" placeholder="SELECT \t'Mu..cs_periodos..." />
-            <marker date="1446571633387" expanded="true" signature="50602:51284" placeholder="SELECT \t'Mu..." />
-            <marker date="1446571633387" expanded="true" signature="50914:51284" placeholder="SELECT \t'En..cliente_respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="58745:59490" placeholder="SELECT \n\tm..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ApiServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="292" column="25" selection-start-line="292" selection-start-column="25" selection-end-line="292" selection-end-column="25" />
-          <folding>
-            <element signature="e#990#991#0" expanded="false" />
-            <element signature="e#1013#1014#0" expanded="false" />
-            <element signature="e#5160#5169#0" expanded="false" />
-            <marker date="1443815094031" expanded="true" signature="3059:3153" placeholder="SELECT DISTI..cs_periodos..." />
-            <marker date="1443815094031" expanded="true" signature="4701:4778" placeholder="SELECT * FRO..cs_perfiles_permisos..." />
-            <marker date="1443815094031" expanded="true" signature="54203:54867" placeholder="SELECT \n\tm..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/panel.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="344" column="47" selection-start-line="344" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
-          <folding>
-            <marker date="1443815670804" expanded="true" signature="13925:13936" placeholder="..." />
-            <marker date="1443815670804" expanded="true" signature="14035:14046" placeholder="..." />
-            <marker date="1443815670804" expanded="true" signature="14303:14314" placeholder="..." />
-          </folding>
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/modules/result_last_period.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.3771331">
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="29" selection-end-column="9" />
-          <folding />
+        <state vertical-scroll-proportion="0.4778157">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ChartServlet.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="843" column="37" selection-start-line="843" selection-start-column="37" selection-end-line="843" selection-end-column="37" />
-          <folding>
-            <element signature="e#979#980#0" expanded="false" />
-            <element signature="e#1002#1003#0" expanded="false" />
-            <marker date="1446571633387" expanded="true" signature="7439:8195" placeholder="SELECT \n\tm..." />
-            <marker date="1446571633387" expanded="true" signature="16992:17066" placeholder="SELECT \n np..nps..." />
-            <marker date="1446571633387" expanded="true" signature="17128:18491" placeholder="SELECT \n\tS..id_cliente..." />
-            <marker date="1446571633387" expanded="true" signature="17312:18427" placeholder="SELECT respu..cliente..." />
-            <marker date="1446571633387" expanded="true" signature="17892:18205" placeholder="SELECT clien..cliente_respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="18535:20468" placeholder="SELECT \n\tn..numero_pregunta..." />
-            <marker date="1446571633387" expanded="true" signature="18679:20382" placeholder="SELECT \n\t\..respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="19673:19957" placeholder="SELECT clien..cliente_respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="50602:50874" placeholder="SELECT \t'Mu..cs_periodos..." />
-            <marker date="1446571633387" expanded="true" signature="50602:51284" placeholder="SELECT \t'Mu..." />
-            <marker date="1446571633387" expanded="true" signature="50914:51284" placeholder="SELECT \t'En..cliente_respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="58745:59490" placeholder="SELECT \n\tm..." />
-          </folding>
+          <caret line="305" column="0" selection-start-line="305" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ApiServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="292" column="25" selection-start-line="292" selection-start-column="25" selection-end-line="292" selection-end-column="25" />
-          <folding>
-            <element signature="e#990#991#0" expanded="false" />
-            <element signature="e#1013#1014#0" expanded="false" />
-            <element signature="e#5160#5169#0" expanded="false" />
-            <marker date="1443815094031" expanded="true" signature="3059:3153" placeholder="SELECT DISTI..cs_periodos..." />
-            <marker date="1443815094031" expanded="true" signature="4701:4778" placeholder="SELECT * FRO..cs_perfiles_permisos..." />
-            <marker date="1443815094031" expanded="true" signature="54203:54867" placeholder="SELECT \n\tm..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/panel.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="344" column="47" selection-start-line="344" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
-          <folding>
-            <marker date="1443815670804" expanded="true" signature="13925:13936" placeholder="..." />
-            <marker date="1443815670804" expanded="true" signature="14035:14046" placeholder="..." />
-            <marker date="1443815670804" expanded="true" signature="14303:14314" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/modules/result_last_period.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ChartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="843" column="37" selection-start-line="843" selection-start-column="37" selection-end-line="843" selection-end-column="37" />
-          <folding>
-            <element signature="e#979#980#0" expanded="false" />
-            <element signature="e#1002#1003#0" expanded="false" />
-            <marker date="1446571633387" expanded="true" signature="7439:8195" placeholder="SELECT \n\tm..." />
-            <marker date="1446571633387" expanded="true" signature="16992:17066" placeholder="SELECT \n np..nps..." />
-            <marker date="1446571633387" expanded="true" signature="17128:18491" placeholder="SELECT \n\tS..id_cliente..." />
-            <marker date="1446571633387" expanded="true" signature="17312:18427" placeholder="SELECT respu..cliente..." />
-            <marker date="1446571633387" expanded="true" signature="17892:18205" placeholder="SELECT clien..cliente_respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="18535:20468" placeholder="SELECT \n\tn..numero_pregunta..." />
-            <marker date="1446571633387" expanded="true" signature="18679:20382" placeholder="SELECT \n\t\..respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="19673:19957" placeholder="SELECT clien..cliente_respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="50602:50874" placeholder="SELECT \t'Mu..cs_periodos..." />
-            <marker date="1446571633387" expanded="true" signature="50602:51284" placeholder="SELECT \t'Mu..." />
-            <marker date="1446571633387" expanded="true" signature="50914:51284" placeholder="SELECT \t'En..cliente_respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="58745:59490" placeholder="SELECT \n\tm..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ApiServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="292" column="25" selection-start-line="292" selection-start-column="25" selection-end-line="292" selection-end-column="25" />
-          <folding>
-            <element signature="e#990#991#0" expanded="false" />
-            <element signature="e#1013#1014#0" expanded="false" />
-            <element signature="e#5160#5169#0" expanded="false" />
-            <marker date="1443815094031" expanded="true" signature="3059:3153" placeholder="SELECT DISTI..cs_periodos..." />
-            <marker date="1443815094031" expanded="true" signature="4701:4778" placeholder="SELECT * FRO..cs_perfiles_permisos..." />
-            <marker date="1443815094031" expanded="true" signature="54203:54867" placeholder="SELECT \n\tm..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/panel.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="344" column="47" selection-start-line="344" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
-          <folding>
-            <marker date="1443815670804" expanded="true" signature="13925:13936" placeholder="..." />
-            <marker date="1443815670804" expanded="true" signature="14035:14046" placeholder="..." />
-            <marker date="1443815670804" expanded="true" signature="14303:14314" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/modules/result_last_period.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ChartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="843" column="37" selection-start-line="843" selection-start-column="37" selection-end-line="843" selection-end-column="37" />
-          <folding>
-            <element signature="e#979#980#0" expanded="false" />
-            <element signature="e#1002#1003#0" expanded="false" />
-            <marker date="1446571633387" expanded="true" signature="7439:8195" placeholder="SELECT \n\tm..." />
-            <marker date="1446571633387" expanded="true" signature="16992:17066" placeholder="SELECT \n np..nps..." />
-            <marker date="1446571633387" expanded="true" signature="17128:18491" placeholder="SELECT \n\tS..id_cliente..." />
-            <marker date="1446571633387" expanded="true" signature="17312:18427" placeholder="SELECT respu..cliente..." />
-            <marker date="1446571633387" expanded="true" signature="17892:18205" placeholder="SELECT clien..cliente_respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="18535:20468" placeholder="SELECT \n\tn..numero_pregunta..." />
-            <marker date="1446571633387" expanded="true" signature="18679:20382" placeholder="SELECT \n\t\..respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="19673:19957" placeholder="SELECT clien..cliente_respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="50602:50874" placeholder="SELECT \t'Mu..cs_periodos..." />
-            <marker date="1446571633387" expanded="true" signature="50602:51284" placeholder="SELECT \t'Mu..." />
-            <marker date="1446571633387" expanded="true" signature="50914:51284" placeholder="SELECT \t'En..cliente_respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="58745:59490" placeholder="SELECT \n\tm..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ApiServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="292" column="25" selection-start-line="292" selection-start-column="25" selection-end-line="292" selection-end-column="25" />
-          <folding>
-            <element signature="e#990#991#0" expanded="false" />
-            <element signature="e#1013#1014#0" expanded="false" />
-            <element signature="e#5160#5169#0" expanded="false" />
-            <marker date="1443815094031" expanded="true" signature="3059:3153" placeholder="SELECT DISTI..cs_periodos..." />
-            <marker date="1443815094031" expanded="true" signature="4701:4778" placeholder="SELECT * FRO..cs_perfiles_permisos..." />
-            <marker date="1443815094031" expanded="true" signature="54203:54867" placeholder="SELECT \n\tm..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="164" column="44" selection-start-line="164" selection-start-column="44" selection-end-line="164" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/modules/accumulated_results.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21326165">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ApiServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="292" column="25" selection-start-line="292" selection-start-column="25" selection-end-line="292" selection-end-column="25" />
-          <folding>
-            <element signature="e#990#991#0" expanded="false" />
-            <element signature="e#1013#1014#0" expanded="false" />
-            <element signature="e#5160#5169#0" expanded="false" />
-            <marker date="1443815094031" expanded="true" signature="3059:3153" placeholder="SELECT DISTI..cs_periodos..." />
-            <marker date="1443815094031" expanded="true" signature="4701:4778" placeholder="SELECT * FRO..cs_perfiles_permisos..." />
-            <marker date="1443815094031" expanded="true" signature="54203:54867" placeholder="SELECT \n\tm..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ChartServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="843" column="37" selection-start-line="843" selection-start-column="37" selection-end-line="843" selection-end-column="37" />
-          <folding>
-            <element signature="e#979#980#0" expanded="false" />
-            <element signature="e#1002#1003#0" expanded="false" />
-            <marker date="1446571633387" expanded="true" signature="7439:8195" placeholder="SELECT \n\tm..." />
-            <marker date="1446571633387" expanded="true" signature="16992:17066" placeholder="SELECT \n np..nps..." />
-            <marker date="1446571633387" expanded="true" signature="17128:18491" placeholder="SELECT \n\tS..id_cliente..." />
-            <marker date="1446571633387" expanded="true" signature="17312:18427" placeholder="SELECT respu..cliente..." />
-            <marker date="1446571633387" expanded="true" signature="17892:18205" placeholder="SELECT clien..cliente_respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="18535:20468" placeholder="SELECT \n\tn..numero_pregunta..." />
-            <marker date="1446571633387" expanded="true" signature="18679:20382" placeholder="SELECT \n\t\..respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="19673:19957" placeholder="SELECT clien..cliente_respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="50602:50874" placeholder="SELECT \t'Mu..cs_periodos..." />
-            <marker date="1446571633387" expanded="true" signature="50602:51284" placeholder="SELECT \t'Mu..." />
-            <marker date="1446571633387" expanded="true" signature="50914:51284" placeholder="SELECT \t'En..cliente_respuesta..." />
-            <marker date="1446571633387" expanded="true" signature="58745:59490" placeholder="SELECT \n\tm..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/inc/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="29" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/panel.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="344" column="47" selection-start-line="344" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
-          <folding>
-            <marker date="1443815670804" expanded="true" signature="13925:13936" placeholder="..." />
-            <marker date="1443815670804" expanded="true" signature="14035:14046" placeholder="..." />
-            <marker date="1443815670804" expanded="true" signature="14303:14314" placeholder="..." />
-          </folding>
+          <caret line="396" column="41" selection-start-line="396" selection-start-column="29" selection-end-line="396" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/modules/result_last_period.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/util/jspmkrfn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5393834">
+          <caret line="72" column="67" selection-start-line="72" selection-start-column="67" selection-end-line="72" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/apps/PanelCEXScore/config/PanelCEXScore.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05821918">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/UsuarioServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_75/src.zip!/java/util/logging/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="389" column="0" selection-start-line="389" selection-start-column="0" selection-end-line="389" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_75/src.zip!/java/util/logging/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1295" column="0" selection-start-line="1295" selection-start-column="0" selection-end-line="1295" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_75/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1454" column="0" selection-start-line="1454" selection-start-column="0" selection-end-line="1454" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_75/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="200" column="0" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_75/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="458" column="0" selection-start-line="458" selection-start-column="0" selection-end-line="458" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_75/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="302" column="0" selection-start-line="302" selection-start-column="0" selection-end-line="302" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/PanelServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ApiServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="21" selection-start-column="3" selection-end-line="40" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="1.1673151">
+          <caret line="476" column="21" selection-start-line="474" selection-start-column="22" selection-end-line="477" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../FixHtmlMovistar/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/MomentoServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.52723736">
+          <caret line="771" column="0" selection-start-line="771" selection-start-column="0" selection-end-line="771" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ChartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.078350514">
+          <caret line="641" column="56" selection-start-line="641" selection-start-column="56" selection-end-line="641" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cl/intelidata/servlet/ExportServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5483029">
+          <caret line="264" column="41" selection-start-line="264" selection-start-column="41" selection-end-line="264" selection-end-column="41" />
           <folding />
         </state>
       </provider>

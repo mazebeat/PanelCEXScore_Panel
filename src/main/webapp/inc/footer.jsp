@@ -17,7 +17,7 @@
 					target="_blank">Zona de Recursos</a> 
 					<br>
 				Desarrollado por &copy; <a href="http://customertrigger.com/"
-					target="_blank">CustomerTrigger S.A.</a><%=new java.text.SimpleDateFormat("yyyy").format(new java.util.Date())%><br>
+					target="_blank">CustomerTrigger S.A.</a> <%=new java.text.SimpleDateFormat("yyyy").format(new java.util.Date())%><br>
 				Direcci&oacute;n Comercial: Fanor Velasco No.85, Piso 9, Santiago |
 				Direcci&oacute;n Legal: Sotero Del R&iacute;o 508, Oficina 826,
 				Santiago<br> <abbr title="Tel&eacute;fono">T:</abbr> <a href="tel:+56222198993">+562 22 198 993</a>
