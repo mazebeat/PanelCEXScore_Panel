@@ -1,44 +1,51 @@
-<%@ page import="cl.intelidata.servlet.MomentoServlet, cl.intelidata.util.Text" %>
-<%@ page session="true" %>
-<%@ page buffer="16kb" %>
-<%@ page contentType="text/html; charset=ISO-8859-1" %>
+c<%@ page
+	import="cl.intelidata.servlet.MomentoServlet, cl.intelidata.util.Text"%>
+<%@ page session="true"%>
+<%@ page buffer="16kb"%>
+<%@ page contentType="text/html; charset=ISO-8859-1"%>
 <%
-	response.setDateHeader("Expires", 0);
-	response.addHeader("Cache-Control", "no-store, no-cache, must-revalidate");
-	response.addHeader("Cache-Control", "post-check=0, pre-check=0");
-	response.addHeader("Pragma", "no-cache"); // HTTP/1.0
+    response.setDateHeader("Expires", 0);
+			response.addHeader("Cache-Control",
+					"no-store, no-cache, must-revalidate");
+			response.addHeader("Cache-Control", "post-check=0, pre-check=0");
+			response.addHeader("Pragma", "no-cache"); // HTTP/1.0
 
-	String login = (String)session.getAttribute("Panel_" + cl.intelidata.util.Text.ProyectoID00 + "_status");
-	String context = request.getContextPath();
+			String login = (String) session.getAttribute("Panel_"
+					+ cl.intelidata.util.Text.ProyectoID00 + "_status");
+			String context = request.getContextPath();
 
-	if (login == null || !login.equalsIgnoreCase("login")) {
-		response.sendRedirect(context + "/LoginServlet");
-		return;
-	}
+			if (login == null || !login.equalsIgnoreCase("login")) {
+				response.sendRedirect(context + "/LoginServlet");
+				return;
+			}
 
-	String[] Array_Facultades = (String[])request.getAttribute("Array_Facultades");
-	String[] Array_Campus = (String[])request.getAttribute("Array_Campus");
-	String[] Periodos = (String[])request.getAttribute("Periodos");
-	String[] Periodos2 = (String[])request.getAttribute("Periodos2");
-	String ultimo_periodo = (String)request.getAttribute("ultimo_periodo");
-	String ultimo_periodo_f = (String)request.getAttribute("ultimo_periodo_f");
-	String nombreCliente = (String)session.getAttribute("Panel_" + Text.ProyectoID00 + "_status_NombreCliente");
-	int Fila_Facultad = (Integer)request.getAttribute("Fila_Facultad");
-	int Fila_Campus = (Integer)request.getAttribute("Fila_Campus");
-	int visitCount = (Integer)request.getAttribute("visitCount");
+			String[] Array_Facultades = (String[]) request
+					.getAttribute("Array_Facultades");
+			String[] Array_Campus = (String[]) request
+					.getAttribute("Array_Campus");
+			String[] Periodos = (String[]) request.getAttribute("Periodos");
+			String[] Periodos2 = (String[]) request.getAttribute("Periodos2");
+			String ultimo_periodo = (String) request
+					.getAttribute("ultimo_periodo");
+			String ultimo_periodo_f = (String) request
+					.getAttribute("ultimo_periodo_f");
+			String nombreCliente = (String) session.getAttribute("Panel_"
+					+ Text.ProyectoID00 + "_status_NombreCliente");
+			int Fila_Facultad = (Integer) request.getAttribute("Fila_Facultad");
+			int Fila_Campus = (Integer) request.getAttribute("Fila_Campus");
+			int visitCount = (Integer) request.getAttribute("visitCount");
 %>
 <!-- BEGIN HEADER -->
-<%@ include file="inc/header2.jsp" %>
+<%@ include file="inc/header2.jsp"%>
 <!-- END HEADER -->
 <!-- BEGIN HEADER CABECERA -->
-<%@ include file="inc/header_cabecera.jsp" %>
+<%@ include file="inc/header_cabecera.jsp"%>
 <!-- END HEADER CABECERA -->
 <div class="row">
-	<div class="col-md-6 col-offset-md-3">
-		${messagesPanel}
-	</div>
+	<div class="col-md-6 col-offset-md-3">${messagesPanel}</div>
 	<div class="col-md-2 pull-right">
-		<span class="pull-right"><strong>VISITAS:</strong> <%=visitCount%> Usuarios</span>
+		<span class="pull-right"><strong>VISITAS:</strong> <%=visitCount%>
+			Usuarios</span>
 	</div>
 </div>
 
@@ -46,28 +53,129 @@
 <div class="row equal-height-panels">
 	<!-- BEGIN BOX 2 -->
 	<div class="col-md-5">
-		<%@ include file="modules/result_last_period.jsp" %>
+		<%@ include file="modules/result_last_period.jsp"%>
 	</div>
 	<!-- END BOX 2 -->
 	<!-- BEGIN BOX 3 -->
 	<div class="col-md-3">
-		<%@ include file="modules/accumulated_results.jsp" %>
+		<%@ include file="modules/accumulated_results.jsp"%>
 	</div>
 	<!-- END BOX 2 -->
 	<!-- BEGIN BOX 1 -->
 	<div class="col-md-4">
-		<%@ include file="modules/filters.jsp" %>
-		<%@ include file="modules/show_progress.jsp" %>
+		<div class="panel panel-warning">
+			<div class="panel-heading" data-original-title>
+				<h3 class="panel-title">
+					<i class="fa fa-filter fa-fw"></i>Filtros
+				</h3>
+			</div>
+			<div class="panel-body">
+				<div class="row">
+					<input type="hidden" name="Periodo-0B" id="Periodo-0B"> <input
+						type="hidden" name="Periodo-1B" id="Periodo-1B"> <input
+						type="hidden" name="Periodo-2B" id="Periodo-2B"> <input
+						type="hidden" name="Periodo-3B" id="Periodo-3B"> <input
+						type="hidden" name="TVistaB" id="TVistaB">
+				</div>
+
+				<strong>Periodos</strong>
+
+				<div class="row">
+					<div class="col-md-2">
+						<h6>Inicial:</h6>
+					</div>
+					<div class="col-md-5">
+						<h7>desde&nbsp;</h7>
+						<select name="Periodo-0" id="Periodo-0" class="form-control">
+							<option value="" selected></option>
+							<%
+							    int i = 0;
+										for (i = 0; i < Periodos.length; i++) {
+											if (Periodos[i] == null) {
+												break;
+											}
+											out.print("<option value='" + Periodos2[i] + "'>" + Periodos[i]
+													+ "</option>");
+										}
+							%>
+						</select>
+					</div>
+					<div class="col-md-5">
+						<h7>hasta&nbsp;</h7>
+						<select name="Periodo-1" id="Periodo-1" class="form-control">
+							<option value="" selected></option>
+							<%
+							    int selected = 0;
+										for (i = 0; i < Periodos.length; i++) {
+											if (Periodos[i] == null) {
+												break;
+											}
+											if (selected == 0) {
+												selected = 1;
+												out.print("<option selected value='" + Periodos2[i] + "'>"
+														+ Periodos[i] + "</option>");
+											} else {
+												out.print("<option value='" + Periodos2[i] + "'>"
+														+ Periodos[i] + "</option>");
+											}
+										}
+							%>
+						</select>
+					</div>
+					<%--</div>--%>
+
+					<%--<div class="row">--%>
+					<div class="col-md-2">
+						<h6>Comparar:</h6>
+					</div>
+					<div class="col-md-5">
+						<h6>desde&nbsp;</h6>
+						<select name="Periodo-2" id="Periodo-2" class="form-control">
+							<option value="" selected></option>
+							<%
+							    for (i = 0; i < Periodos.length; i++) {
+											if (Periodos[i] == null) {
+												break;
+											}
+											out.print("<option value='" + Periodos2[i] + "'>" + Periodos[i]
+													+ "</option>");
+										}
+							%>
+						</select>
+					</div>
+					<div class="col-md-5">
+						<h6>hasta&nbsp;</h6>
+						<select name="Periodo-3" id="Periodo-3" class="form-control">
+							<option value="" selected></option>
+							<%
+							    for (i = 0; i < Periodos.length; i++) {
+											if (Periodos[i] == null) {
+												break;
+											}
+											out.print("<option value='" + Periodos2[i] + "'>" + Periodos[i]
+													+ "</option>");
+										}
+							%>
+						</select>
+					</div>
+				</div>
+
+				<button class="btn btn-default btn-xs pull-right"
+					onclick="javascript:FiltrarDatos('boton', '', '', '', '', '', '', '');">
+					<i class="fa fa-search fa-fw"></i>Filtrar
+				</button>
+			</div>
+		</div>
+		<%@ include file="modules/show_progress.jsp"%>
 	</div>
 	<!-- END BOX 1 -->
 </div>
 <!--BEGIN CUADROS X MOMENTOS-->
 <div id="moment_boxes">
 	<%
-		String moment_boxes = MomentoServlet.generateMoments(
-				request, response
-		);
-		out.print(moment_boxes);
+	    String moment_boxes = MomentoServlet.generateMoments(request,
+						response);
+				out.print(moment_boxes);
 	%>
 </div>
 <!--END CUADROS X MOMENTOS-->
@@ -95,7 +203,8 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header bg-info" id="modalFindH">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<button type="button" class="close" data-dismiss="modal"
+					aria-label="Close">
 					<span aria-hidden="true"><i class='fa fa-times'></i></span>
 				</button>
 				<h4 class="modal-title">
@@ -105,25 +214,28 @@
 			<div class="modal-body" id="modalFindB">
 				<div class="row">
 					<div class="col-xs-12">
-						<form id="SimpleSearchForm" method="post" class="form-inline" role="form">
+						<form id="SimpleSearchForm" method="post" class="form-inline"
+							role="form">
 							<div class="form-group">
-								<label class="sr-only" for="wordFind">Buscar </label> <input type="text" class="form-control" id="wordSearch" name="wordSearch" placeholder="Ingrese una palabra...">
+								<label class="sr-only" for="wordFind">Buscar </label> <input
+									type="text" class="form-control" id="wordSearch"
+									name="wordSearch" placeholder="Ingrese una palabra...">
 							</div>
 							<div class="form-group">
 								<label class="sr-only" for="fromDate">Desde </label>
 
 								<div id="fromDateDiv"></div>
-								<select class="form-control" id="fromDate" name="fromDate" placeholder="Desde...">
+								<select class="form-control" id="fromDate" name="fromDate"
+									placeholder="Desde...">
 									<option value="" selected></option>
 									<%
-										for (i = 0; i < Periodos.length; i++) {
-											if (Periodos[i] == null) {
-												break;
-											}
-											out.print(
-													"<option value='" + Periodos2[i] + "'>" + Periodos[i] + "</option>"
-											);
-										}
+									    for (i = 0; i < Periodos.length; i++) {
+													if (Periodos[i] == null) {
+														break;
+													}
+													out.print("<option value='" + Periodos2[i] + "'>" + Periodos[i]
+															+ "</option>");
+												}
 									%>
 								</select>
 							</div>
@@ -131,30 +243,30 @@
 								<label class="sr-only" for="toDate">Hasta </label>
 
 								<div id="toDateDiv"></div>
-								<select class="form-control" id="toDate" name="toDate" placeholder="Hasta...">
+								<select class="form-control" id="toDate" name="toDate"
+									placeholder="Hasta...">
 									<option value="" selected></option>
 									<%
-										selected = 0;
-										for (i = 0; i < Periodos.length; i++) {
-											if (Periodos[i] == null) {
-												break;
-											}
-											if (selected == 0) {
-												selected = 1;
-												out.print(
-														"<option selected value='" + Periodos2[i] + "'>" + Periodos[i] + "</option>"
-												);
-											} else {
-												out.print(
-														"<option value='" + Periodos2[i] + "'>" + Periodos[i] + "</option>"
-												);
-											}
-										}
+									    selected = 0;
+												for (i = 0; i < Periodos.length; i++) {
+													if (Periodos[i] == null) {
+														break;
+													}
+													if (selected == 0) {
+														selected = 1;
+														out.print("<option selected value='" + Periodos2[i] + "'>"
+																+ Periodos[i] + "</option>");
+													} else {
+														out.print("<option value='" + Periodos2[i] + "'>"
+																+ Periodos[i] + "</option>");
+													}
+												}
 									%>
 								</select>
 							</div>
 							<div class="form-group">
-								<input type="hidden" class="form-control" id="chart" name="chart" value="00_simplesearch">
+								<input type="hidden" class="form-control" id="chart"
+									name="chart" value="00_simplesearch">
 							</div>
 							<button type="submit" class="btn btn-default">Buscar</button>
 						</form>
@@ -219,11 +331,16 @@
 		periodo_2 = $('#Periodo-2B').val();
 		periodo_3 = $('#Periodo-3B').val();
 
-		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0 + '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2 + '&periodo_3=' + periodo_3 + '&moment=' + moment;
+		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0
+				+ '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2
+				+ '&periodo_3=' + periodo_3 + '&moment=' + moment;
 
 		$('#myModal').modal('show');
-		$('#body-modalT').html($("<button type='button' class='close' data-dismiss='modal'><i class='fa fa-times'></i></button><h3><i class='fa fa-bullhorn fa-fw'></i>Lo que dice la gente</h3>"));
-		cargarContenido(context + '/ChartServlet' + param + method, 'body-modalC');
+		$('#body-modalT')
+				.html(
+						$("<button type='button' class='close' data-dismiss='modal'><i class='fa fa-times'></i></button><h3><i class='fa fa-bullhorn fa-fw'></i>Lo que dice la gente</h3>"));
+		cargarContenido(context + '/ChartServlet' + param + method,
+				'body-modalC');
 	}
 
 	/**
@@ -297,17 +414,23 @@
 	 */
 	function addButtonExport(id_div, moment) {
 		// ADD BUTTONS EXPORT AND COMMENT
-		var imgExcel = "<a title='Exportar Encuestas' href='#' onclick='javascript:Exportar(" + moment + ");return false;'><i class='fa fa-file-excel-o fa-lg fa-fw export'></i></a>";
-		var imgComen = "<a title='Ver Comentarios' href='#' onclick='javascript:Comentarios(" + moment + ");return false;'><i class='fa fa-comment fa-lg fa-fw comment'></i></a>";
+		var imgExcel = "<a title='Exportar Encuestas' href='#' onclick='javascript:Exportar("
+				+ moment
+				+ ");return false;'><i class='fa fa-file-excel-o fa-lg fa-fw export'></i></a>";
+		var imgComen = "<a title='Ver Comentarios' href='#' onclick='javascript:Comentarios("
+				+ moment
+				+ ");return false;'><i class='fa fa-comment fa-lg fa-fw comment'></i></a>";
 		var imgSearch = "<a title='Busqueda Simple' href='#' onclick='javascript:SimpleSearch_GET();return false;\'><i class='fa fa-search fa-lg fa-fw simpleSearch'></i></a>";
-		var content = "<strong>" + nombre_cliente + "</strong>&nbsp;" + imgExcel + imgComen + imgSearch;
+		var content = "<strong>" + nombre_cliente + "</strong>&nbsp;"
+				+ imgExcel + imgComen + imgSearch;
 		$("#" + id_div).html($(content));
 	}
 
 	/**
 	 *
 	 */
-	function GenerateShowProgressChart(periodo_2I, periodo_0, periodo_1, periodo_2, periodo_3) {
+	function GenerateShowProgressChart(periodo_2I, periodo_0, periodo_1,
+			periodo_2, periodo_3) {
 		var method = "&chart=00_muestra";
 		var content;
 		if (periodo_2I > 0) {
@@ -318,10 +441,12 @@
 			$('#div_avances').html(content);
 		}
 
-		var param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0 + '&periodo_1=' + periodo_1;
+		var param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0
+				+ '&periodo_1=' + periodo_1;
 
 		// LOAD CONTENT TO 'myChart01z_detallle'
-		cargarContenido(context + '/ChartServlet' + param + method + '&tipoD=0&Titulo=Inicial', 'myChart01z_detallle');
+		cargarContenido(context + '/ChartServlet' + param + method
+				+ '&tipoD=0&Titulo=Inicial', 'myChart01z_detallle');
 
 		if (periodo_2I > 0) {
 			anchoGraf = '100%';
@@ -332,20 +457,26 @@
 			FusionCharts("myChart01z_id").dispose();
 		}
 
-		myChart = new FusionCharts("charts/HLinearGauge.swf", "myChart01z_id", anchoGraf, "65", false, false);
-		myChart.setDataURL(encodeURIComponent(context + '/ChartServlet' + param + method + '&tipoD=1&Titulo=Inicial'));
+		myChart = new FusionCharts("charts/HLinearGauge.swf", "myChart01z_id",
+				anchoGraf, "65", false, false);
+		myChart.setDataURL(encodeURIComponent(context + '/ChartServlet' + param
+				+ method + '&tipoD=1&Titulo=Inicial'));
 		myChart.render("myChart01z");
 
 		if (periodo_2I > 0) {
-			param = '?currTime=' + getTimeForURL() + '&periodo_2=' + periodo_2 + '&periodo_3=' + periodo_3;
-			cargarContenido(context + '/ChartServlet' + param + method + '&tipoD=0&Titulo=Comparar', 'myChart01_detallle');
+			param = '?currTime=' + getTimeForURL() + '&periodo_2=' + periodo_2
+					+ '&periodo_3=' + periodo_3;
+			cargarContenido(context + '/ChartServlet' + param + method
+					+ '&tipoD=0&Titulo=Comparar', 'myChart01_detallle');
 
 			if (FusionCharts("myChart01_id")) {
 				FusionCharts("myChart01_id").dispose();
 			}
 
-			myChart = new FusionCharts("charts/HLinearGauge.swf", "myChart01_id", anchoGraf, "65", false, false);
-			myChart.setDataURL(encodeURIComponent(context + '/ChartServlet' + param + method + '&tipoD=1&Titulo=Comparar'));
+			myChart = new FusionCharts("charts/HLinearGauge.swf",
+					"myChart01_id", anchoGraf, "65", false, false);
+			myChart.setDataURL(encodeURIComponent(context + '/ChartServlet'
+					+ param + method + '&tipoD=1&Titulo=Comparar'));
 			myChart.render("myChart01");
 		}
 	}
@@ -353,39 +484,54 @@
 	/**
 	 *
 	 */
-	function GenerateResultLastPeriodChart(periodo_0, periodo_1, periodo_2, periodo_3) {
+	function GenerateResultLastPeriodChart(periodo_0, periodo_1, periodo_2,
+			periodo_3) {
 		//  GENERATE GRAPH 'RESULTADOS ULTIMO PERIODO'
 		var path, param, method = "&chart=03_benchmark";
 
 		//  COMPETENCIA
-		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0 + '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2 + '&periodo_3=' + periodo_3 + '&mostrar_como=grafico';
+		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0
+				+ '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2
+				+ '&periodo_3=' + periodo_3 + '&mostrar_como=grafico';
 
 		if (FusionCharts("GE_id")) {
 			FusionCharts("GE_id").dispose();
 		}
 
-		myChart = new FusionCharts("charts/MSCombi2D.swf", "GE_id", "100%", "130", false, false);
-		myChart.setDataURL(encodeURIComponent(context + '/ChartServlet' + param + method));
+		myChart = new FusionCharts("charts/MSCombi2D.swf", "GE_id", "100%",
+				"130", false, false);
+		myChart.setDataURL(encodeURIComponent(context + '/ChartServlet' + param
+				+ method));
 		myChart.render("GE_chart");
 
-		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0 + '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2 + '&periodo_3=' + periodo_3 + '&mostrar_como=tabla';
-		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0 + '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2 + '&periodo_3=' + periodo_3 + '&mostrar_como=tabla';
+		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0
+				+ '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2
+				+ '&periodo_3=' + periodo_3 + '&mostrar_como=tabla';
+		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0
+				+ '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2
+				+ '&periodo_3=' + periodo_3 + '&mostrar_como=tabla';
 		path = context + '/ChartServlet' + param + method;
 		cargarContenido(context + '/ChartServlet' + param + method, 'GE_detail');
 
 		//  CLIENTE
 		method = "&chart=02_periodo_indicadores";
-		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0 + '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2 + '&periodo_3=' + periodo_3 + '&mostrar_como=grafico';
+		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0
+				+ '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2
+				+ '&periodo_3=' + periodo_3 + '&mostrar_como=grafico';
 
 		if (FusionCharts("client__id")) {
 			FusionCharts("client__id").dispose();
 		}
 
-		myChart = new FusionCharts("charts/MSCombi2D.swf", "client__id", "100%", "130", false, false);
-		myChart.setDataURL(encodeURIComponent(context + '/ChartServlet' + param + method));
+		myChart = new FusionCharts("charts/MSCombi2D.swf", "client__id",
+				"100%", "130", false, false);
+		myChart.setDataURL(encodeURIComponent(context + '/ChartServlet' + param
+				+ method));
 		myChart.render("client_chart");
 
-		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0 + '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2 + '&periodo_3=' + periodo_3 + '&mostrar_como=tabla';
+		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0
+				+ '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2
+				+ '&periodo_3=' + periodo_3 + '&mostrar_como=tabla';
 		path = context + '/ChartServlet' + param + method;
 		cargarContenido(path, 'client_detail');
 	}
@@ -396,7 +542,8 @@
 	function GenerateAccumulatedResult() {
 		var method = "&chart=01_acumulado";
 		var param = '?currTime=' + getTimeForURL();
-		cargarContenido(context + '/ChartServlet' + param + method, 'div_acum_global');
+		cargarContenido(context + '/ChartServlet' + param + method,
+				'div_acum_global');
 	}
 
 	/**
@@ -406,33 +553,43 @@
 		//  CLIENTE
 		/// CHART
 		method = "&chart=02_periodo_indicadores";
-		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0 + '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2 + '&periodo_3=' + periodo_3 + '&moment=' + number
+		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0
+				+ '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2
+				+ '&periodo_3=' + periodo_3 + '&moment=' + number
 				+ '&mostrar_como=grafico';
 
 		if (FusionCharts("moment_" + number + "_id")) {
 			FusionCharts("moment_" + number + "_id").dispose();
 		}
 
-		myChart = new FusionCharts("charts/MSCombi2D.swf", "moment_" + number + "_id", "100%", "130", false, false);
-		myChart.setDataURL(encodeURIComponent(context + '/MomentoServlet' + param + method));
+		myChart = new FusionCharts("charts/MSCombi2D.swf", "moment_" + number
+				+ "_id", "100%", "130", false, false);
+		myChart.setDataURL(encodeURIComponent(context + '/MomentoServlet'
+				+ param + method));
 		myChart.render("chart_moment_" + number);
 
 		/// DETAIL
-		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0 + '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2 + '&periodo_3=' + periodo_3 + '&moment=' + number
+		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0
+				+ '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2
+				+ '&periodo_3=' + periodo_3 + '&moment=' + number
 				+ '&mostrar_como=tabla';
 		path = context + '/MomentoServlet' + param + method;
 		cargarContenido(path, 'detail_moment_' + number);
 
 		// TENDENCE
 		method = "&chart=04_tendencia";
-		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0 + '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2 + '&periodo_3=' + periodo_3 + '&moment=' + number;
+		param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0
+				+ '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2
+				+ '&periodo_3=' + periodo_3 + '&moment=' + number;
 
 		if (FusionCharts("trend_moment_" + number + "_id")) {
 			FusionCharts("trend_moment_" + number + "_id").dispose();
 		}
 
-		myChart = new FusionCharts("charts/MSLine.swf", "trend_moment_" + number + "_id", "100%", "200", "0", "0");
-		myChart.setDataURL(encodeURIComponent(context + '/MomentoServlet' + param + method));
+		myChart = new FusionCharts("charts/MSLine.swf", "trend_moment_"
+				+ number + "_id", "100%", "200", "0", "0");
+		myChart.setDataURL(encodeURIComponent(context + '/MomentoServlet'
+				+ param + method));
 		myChart.render("trend_moment_" + number);
 	}
 
@@ -448,7 +605,8 @@
 	 * @param per_3
 	 * @constructor
 	 */
-	function FiltrarDatos(trigger, str_sede, str_facultad, str_campus, per_0, per_1, per_2, per_3) {
+	function FiltrarDatos(trigger, str_sede, str_facultad, str_campus, per_0,
+			per_1, per_2, per_3) {
 
 		var param, method, path;
 		var ValidarFiltros2 = true;
@@ -464,10 +622,14 @@
 			periodo_2 = $('#Periodo-2').val();
 			periodo_3 = $('#Periodo-3').val();
 
-			periodo_0I = EW_selectopt2(document.getElementById('Periodo-0'), document.getElementById('Periodo-0').value);
-			periodo_1I = EW_selectopt2(document.getElementById('Periodo-1'), document.getElementById('Periodo-1').value);
-			periodo_2I = EW_selectopt2(document.getElementById('Periodo-2'), document.getElementById('Periodo-2').value);
-			periodo_3I = EW_selectopt2(document.getElementById('Periodo-3'), document.getElementById('Periodo-3').value);
+			periodo_0I = EW_selectopt2(document.getElementById('Periodo-0'),
+					document.getElementById('Periodo-0').value);
+			periodo_1I = EW_selectopt2(document.getElementById('Periodo-1'),
+					document.getElementById('Periodo-1').value);
+			periodo_2I = EW_selectopt2(document.getElementById('Periodo-2'),
+					document.getElementById('Periodo-2').value);
+			periodo_3I = EW_selectopt2(document.getElementById('Periodo-3'),
+					document.getElementById('Periodo-3').value);
 
 			Dif_Actual = periodo_0I - periodo_1I;
 			Dif_Compara = periodo_2I - periodo_3I;
@@ -503,10 +665,12 @@
 			addButtonExport('client_export', '');
 
 			//  GENERATE GRAPH INIT -- CAJA 1
-			GenerateShowProgressChart(periodo_2I, periodo_0, periodo_1, periodo_2, periodo_3);
+			GenerateShowProgressChart(periodo_2I, periodo_0, periodo_1,
+					periodo_2, periodo_3);
 
 			//  GENERATE GRAPH '' -- CAJA 2
-			GenerateResultLastPeriodChart(periodo_0, periodo_1, periodo_2, periodo_3);
+			GenerateResultLastPeriodChart(periodo_0, periodo_1, periodo_2,
+					periodo_3);
 
 			//  GENERATE GRAPH 'RESULTADOS ACUMULADOS' -- CAJA 3
 			GenerateAccumulatedResult();
@@ -543,7 +707,9 @@
 		periodo_3 = $('#Periodo-3B').val();
 		TipoVista = $('#TVistaB').val();
 
-		var param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0 + '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2 + '&periodo_3=' + periodo_3 + "&moment=" + moment;
+		var param = '?currTime=' + getTimeForURL() + '&periodo_0=' + periodo_0
+				+ '&periodo_1=' + periodo_1 + '&periodo_2=' + periodo_2
+				+ '&periodo_3=' + periodo_3 + "&moment=" + moment;
 
 		param = param + '&action=export';
 		document.location.target = '_blank';
@@ -555,20 +721,22 @@
 		$('#myModal2').modal('show')
 	}
 
-	$('#SimpleSearchForm').submit(function (e) {
-		e.preventDefault();
-		var params = $(this).serializeArray();
-		var method = '00_simplesearch';
-		var wordSearch = $('#wordSearch').val();
-		var fromDate = $('#fromDate').val();
-		var toDate = $('#toDate').val();
+	$('#SimpleSearchForm').submit(
+			function(e) {
+				e.preventDefault();
+				var params = $(this).serializeArray();
+				var method = '00_simplesearch';
+				var wordSearch = $('#wordSearch').val();
+				var fromDate = $('#fromDate').val();
+				var toDate = $('#toDate').val();
 
-		cargarContenidoPost(context + '/ChartServlet', params, 'resultSimpleSearch')
-	});
+				cargarContenidoPost(context + '/ChartServlet', params,
+						'resultSimpleSearch')
+			});
 
 	FiltrarDatos('nav', '', '', '', '', ultimo_periodo_f, '', '');
 </script>
 <!-- END SCRIPTS -->
 <!-- BEGIN FOOTER -->
-<%@ include file="inc/footer.jsp" %>
+<%@ include file="inc/footer.jsp"%>
 <!-- END FOOTER -->

@@ -6,15 +6,7 @@
 	</div>
 	<div class="panel-body">
 		<div class="row">
-			<div class="col-md-6">
-				<div class="row">
-					<div class="col-md-12">
-						<span class="text-center"><strong>Competencia Sector</strong></span>
-					</div>
-					<div class="box-content col-md-12" id="GE_chart" style="z-index:100"></div>
-					<div class="box-content2 col-md-12" id="GE_detail"></div>
-				</div>
-			</div>
+			
 			<div class="col-md-6">
 				<div class="row">
 					<div class="col-md-12">
@@ -22,6 +14,16 @@
 					</div>
 					<div class="box-content col-md-12" id="client_chart"></div>
 					<div class="box-content2 col-md-12" id="client_detail"></div>
+				</div>
+			</div>
+			
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-12">
+						<span class="text-center"><strong>Competencia Sector</strong></span>
+					</div>
+					<div class="box-content col-md-12" id="GE_chart" style="z-index:100"></div>
+					<div class="box-content2 col-md-12" id="GE_detail"></div>
 				</div>
 			</div>
 		</div>

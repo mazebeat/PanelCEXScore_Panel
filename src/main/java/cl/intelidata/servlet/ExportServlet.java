@@ -18,12 +18,12 @@ import java.sql.Statement;
 import java.util.Locale;
 
 public class ExportServlet extends HttpServlet {
-    private static final Logger logger = Logger.getLogger(ExportServlet.class);
-    public static int ID_CLIENTE;
-    public static int ID_SECTOR;
-    public static String NOMBRE_CLIENTE;
+    private static final Logger logger           = Logger.getLogger(ExportServlet.class);
+    public static int           ID_CLIENTE;
+    public static int           ID_SECTOR;
+    public static String        NOMBRE_CLIENTE;
 
-    private static final long serialVersionUID = 1L;
+    private static final long   serialVersionUID = 1L;
 
     /**
      * Constructor of the object.
@@ -202,9 +202,9 @@ public class ExportServlet extends HttpServlet {
                     strSQL_case011 = " DATE_FORMAT(cliente_respuesta.ultima_respuesta,'%Y-%m') = '" + periodo_1 + "' ";
                 } else {
                     strSQL_case01 = " CASE WHEN DATE_FORMAT(cliente_respuesta.ultima_respuesta,'%Y-%m') >= '" + periodo_0 + "' AND DATE_FORMAT(cliente_respuesta.ultima_respuesta,'%Y-%m') <= '"
-                                    + periodo_1 + "' THEN 'ACTUAL' ";
+                            + periodo_1 + "' THEN 'ACTUAL' ";
                     strSQL_case011 = " DATE_FORMAT(cliente_respuesta.ultima_respuesta,'%Y-%m') >= '" + periodo_0 + "' AND DATE_FORMAT(cliente_respuesta.ultima_respuesta,'%Y-%m') <= '" + periodo_1
-                                    + "' ";
+                            + "' ";
                 }
             } else if (periodo_0 == "" && periodo_1 != "") {
                 strSQL_case01 = " CASE WHEN DATE_FORMAT(cliente_respuesta.ultima_respuesta,'%Y-%m') = '" + periodo_1 + "' THEN 'ACTUAL' ";
@@ -217,9 +217,9 @@ public class ExportServlet extends HttpServlet {
                     strSQL_case022 = " DATE_FORMAT(cliente_respuesta.ultima_respuesta,'%Y-%m') = '" + periodo_3 + "' ";
                 } else {
                     strSQL_case02 = " WHEN DATE_FORMAT(cliente_respuesta.ultima_respuesta,'%Y-%m') >= '" + periodo_2 + "' AND DATE_FORMAT(cliente_respuesta.ultima_respuesta,'%Y-%m') <= '" + periodo_3
-                                    + "' THEN 'ANTERIOR' ";
+                            + "' THEN 'ANTERIOR' ";
                     strSQL_case022 = " DATE_FORMAT(cliente_respuesta.ultima_respuesta,'%Y-%m') >= '" + periodo_2 + "' AND DATE_FORMAT(cliente_respuesta.ultima_respuesta,'%Y-%m') <= '" + periodo_3
-                                    + "' ";
+                            + "' ";
                 }
 
             }
@@ -238,44 +238,54 @@ public class ExportServlet extends HttpServlet {
             filtros = filtros + ") AND ";
 
             String str_Exportar = "SELECT \n"
-                            + "\tCASE WHEN ISNULL(usuario.nombre_usuario) THEN '' ELSE usuario.nombre_usuario END AS Nombre_Usuario, \n"
-                            + "\tCASE WHEN ISNULL(usuario.rut_usuario) THEN '' ELSE usuario.rut_usuario END AS RUT_Usuario, \n"
-                            + "\tCASE WHEN ISNULL(usuario.edad_usuario) THEN '' ELSE usuario.edad_usuario END AS Edad_Usuario, \n"
-                            + "\tCASE WHEN ISNULL(usuario.genero_usuario) THEN '' ELSE usuario.genero_usuario END AS Genero_Usuario, \n"
-                            + "\tCASE WHEN ISNULL(usuario.correo_usuario) THEN '' ELSE usuario.correo_usuario END AS Correo_Usuario, \n"
-                            + "\tCASE WHEN ISNULL(usuario.desea_correo_usuario) THEN '' ELSE CASE WHEN usuario.desea_correo_usuario = 'NO' THEN 'DESINSCRITO' ELSE 'INSCRITO' END END AS Desinscrito_Usuario, \n"
-                            + "\tCASE WHEN ISNULL(momento_encuesta.descripcion_momento) THEN '' ELSE momento_encuesta.descripcion_momento END AS Momento, \n"
-                            + "\tCASE WHEN ISNULL(canal.descripcion_canal) THEN '' ELSE canal.descripcion_canal END AS Canal_Ingreso,\n"
-                            + "\tCASE WHEN ISNULL(DATE_FORMAT(cliente_respuesta.ultima_respuesta, '%Y-%m')) THEN '' ELSE DATE_FORMAT(cliente_respuesta.ultima_respuesta, '%Y-%m') END AS Periodo, \n"
-                            + "\tCASE WHEN ISNULL(cliente_respuesta.ultima_respuesta) THEN '' ELSE cliente_respuesta.ultima_respuesta END AS Fecha_Encuesta, \n"
-                            + "\tCASE WHEN ISNULL(estado.descripcion_estado) THEN '' ELSE estado.descripcion_estado END AS Estado_Encuesta, \n"
-                            + "\tCASE WHEN ISNULL(cliente_respuesta.id_cliente_respuesta) THEN '' ELSE cliente_respuesta.id_cliente_respuesta END AS id_cliente_respuesta, \n"
-                            + "\tCASE WHEN ISNULL(pregunta_cabecera.numero_pregunta) THEN '' ELSE pregunta_cabecera.numero_pregunta END AS numero_pregunta, \n"
-                            + "\t-- CASE WHEN ISNULL(pregunta_cabecera.descripcion_1) THEN '' ELSE pregunta_cabecera.descripcion_1 END AS descripcion_1, \n"
-                            + "\tCASE WHEN ISNULL(respuesta_detalle.valor1) THEN '' ELSE respuesta_detalle.valor1 END AS valor1, \n"
-                            + "\tCASE WHEN ISNULL(respuesta_detalle.valor2) THEN '' ELSE respuesta_detalle.valor2 END AS valor2 \n"
-                            + "FROM respuesta_detalle \n"
-                            + "INNER JOIN  respuesta ON respuesta.id_respuesta = respuesta_detalle.id_respuesta \n"
-                            + "INNER JOIN cliente_respuesta ON cliente_respuesta.id_respuesta = respuesta.id_respuesta \n" + "LEFT JOIN usuario ON respuesta.id_usuario = usuario.id_usuario \n"
-                            + "INNER JOIN canal ON respuesta.id_canal = canal.id_canal \n"
-                            + "INNER JOIN estado ON cliente_respuesta.id_estado = estado.id_estado \n"
-                            + "INNER JOIN pregunta_cabecera ON respuesta.id_pregunta_cabecera = pregunta_cabecera.id_pregunta_cabecera \n"
-                            + "INNER JOIN momento_encuesta ON momento_encuesta.id_cliente = respuesta.id_cliente \n"
-                            + " AND momento_encuesta.id_momento = respuesta.id_momento "
-                            + "WHERE " + filtros + "respuesta.id_cliente = " + ID_CLIENTE
-                            + " AND momento_encuesta.id_cliente = respuesta.id_cliente\n"
-                            + filterMoment + " \n"
-                            + "AND pregunta_cabecera.id_encuesta = momento_encuesta.id_encuesta \n"
-                            + "ORDER BY cliente_respuesta.id_cliente_respuesta, respuesta.id_pregunta_cabecera";
+                    + "\tCASE WHEN ISNULL(usuario.nombre_usuario) THEN '' ELSE usuario.nombre_usuario END AS Nombre_Usuario, \n"
+                    + "\tCASE WHEN ISNULL(usuario.rut_usuario) THEN '' ELSE usuario.rut_usuario END AS RUT_Usuario, \n"
+                    + "\tCASE WHEN ISNULL(usuario.edad_usuario) THEN '' ELSE usuario.edad_usuario END AS Edad_Usuario, \n"
+                    + "\tCASE WHEN ISNULL(usuario.genero_usuario) THEN '' ELSE usuario.genero_usuario END AS Genero_Usuario, \n"
+                    + "\tCASE WHEN ISNULL(usuario.correo_usuario) THEN '' ELSE usuario.correo_usuario END AS Correo_Usuario, \n"
+                    + "\tCASE WHEN ISNULL(usuario.desea_correo_usuario) THEN '' ELSE CASE WHEN usuario.desea_correo_usuario = 'NO' THEN 'DESINSCRITO' ELSE 'INSCRITO' END END AS Desinscrito_Usuario, \n"
+                    + "\tCASE WHEN ISNULL(momento_encuesta.descripcion_momento) THEN '' ELSE momento_encuesta.descripcion_momento END AS Momento, \n"
+                    + "\tCASE WHEN ISNULL(canal.descripcion_canal) THEN '' ELSE canal.descripcion_canal END AS Canal_Ingreso,\n"
+                    + "\tCASE WHEN ISNULL(DATE_FORMAT(cliente_respuesta.ultima_respuesta, '%Y-%m')) THEN '' ELSE DATE_FORMAT(cliente_respuesta.ultima_respuesta, '%Y-%m') END AS Periodo, \n"
+                    + "\tCASE WHEN ISNULL(cliente_respuesta.ultima_respuesta) THEN '' ELSE cliente_respuesta.ultima_respuesta END AS Fecha_Encuesta, \n"
+                    + "\tCASE WHEN ISNULL(estado.descripcion_estado) THEN '' ELSE estado.descripcion_estado END AS Estado_Encuesta, \n"
+                    + "\tCASE WHEN ISNULL(cliente_respuesta.id_cliente_respuesta) THEN '' ELSE cliente_respuesta.id_cliente_respuesta END AS id_cliente_respuesta, \n"
+                    + "\tCASE WHEN ISNULL(pregunta_cabecera.numero_pregunta) THEN '' ELSE pregunta_cabecera.numero_pregunta END AS numero_pregunta, \n"
+                    + "\t-- CASE WHEN ISNULL(pregunta_cabecera.descripcion_1) THEN '' ELSE pregunta_cabecera.descripcion_1 END AS descripcion_1, \n"
+                    + "\tCASE WHEN ISNULL(respuesta_detalle.valor1) THEN '' ELSE respuesta_detalle.valor1 END AS valor1, \n"
+                    + "\tCASE WHEN ISNULL(respuesta_detalle.valor2) THEN '' ELSE respuesta_detalle.valor2 END AS valor2 \n" 
+                    + "FROM respuesta_detalle \n"
+                    + "INNER JOIN  respuesta ON respuesta.id_respuesta = respuesta_detalle.id_respuesta \n"
+                    + "INNER JOIN cliente_respuesta ON cliente_respuesta.id_respuesta = respuesta.id_respuesta \n" 
+                    + "LEFT JOIN usuario ON respuesta.id_usuario = usuario.id_usuario \n"
+                    + "INNER JOIN canal ON respuesta.id_canal = canal.id_canal \n" 
+                    + "INNER JOIN estado ON cliente_respuesta.id_estado = estado.id_estado \n"
+                    + "INNER JOIN pregunta_cabecera ON respuesta.id_pregunta_cabecera = pregunta_cabecera.id_pregunta_cabecera \n"
+                    + "INNER JOIN momento_encuesta ON momento_encuesta.id_cliente = respuesta.id_cliente \n" 
+                    + " AND momento_encuesta.id_momento = respuesta.id_momento \n" 
+                    + "WHERE " + filtros
+                    + "respuesta.id_cliente = " + ID_CLIENTE + " \n" 
+                    + "AND momento_encuesta.id_cliente = respuesta.id_cliente \n"
+                    + filterMoment + " \n"
+                    + " -- AND pregunta_cabecera.id_encuesta = momento_encuesta.id_encuesta \n" 
+                    + "ORDER BY cliente_respuesta.id_cliente_respuesta, respuesta.id_pregunta_cabecera  \n";
 
             if (NOMBRE_MOMENTO != "") {
                 NOMBRE_MOMENTO = "_" + NOMBRE_MOMENTO;
             }
+            // Salidas de archivo
+            // 1.- HTML
             // response.setContentType("text/html");
+            // 2.- CSV
+            // response.setContentType("text/csv");
+            // response.setHeader("Content-Disposition", "inline; filename=" + NOMBRE_CLIENTE + NOMBRE_MOMENTO + "_" + currTime + ".csv");
+            // 3.- XSLX
             response.setContentType("application/vnd.ms-excel");
-
             response.setHeader("Content-Disposition", "inline; filename=" + NOMBRE_CLIENTE + NOMBRE_MOMENTO + "_" + currTime + ".xls");
-
+            // 4.- TXT
+            // response.setContentType("text/csv");
+            // response.setHeader("Content-Disposition", "inline; filename=" + NOMBRE_CLIENTE + NOMBRE_MOMENTO + "_" + currTime + ".csv");
+            
             try {
                 stmt = dbtools.getConexion().createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
                 rs = stmt.executeQuery(str_Exportar);
@@ -419,11 +429,13 @@ public class ExportServlet extends HttpServlet {
             ID_CLIENTE = Integer.parseInt(session.getAttribute("Panel_" + Text.ProyectoID00 + "_status_IdCliente").toString());
 
             // SELECT ALL MOMENTS BY CLIENT
-            strSQL_moments = "SELECT \n" + "momento_encuesta.descripcion_momento\n" + "FROM momento_encuesta\n" + "INNER JOIN encuesta ON momento_encuesta.id_encuesta = encuesta.id_encuesta \n"
-                            + "INNER JOIN cliente ON encuesta.id_encuesta = cliente.id_encuesta\n" + "INNER JOIN pregunta_cabecera ON encuesta.id_encuesta = pregunta_cabecera.id_encuesta\n"
-                            + "INNER JOIN respuesta ON pregunta_cabecera.id_pregunta_cabecera = respuesta.id_pregunta_cabecera\n" + "INNER JOIN canal ON respuesta.id_canal = canal.id_canal\n"
-                            + "WHERE cliente.id_cliente = " + ID_CLIENTE + " \n" + "AND momento_encuesta.id_momento = " + ID_MOMENTO + " \n" + "GROUP BY momento_encuesta.id_momento\n"
-                            + "ORDER BY momento_encuesta.id_momento ASC";
+            strSQL_moments = "SELECT \n" 
+                    + "momento_encuesta.descripcion_momento \n" 
+                    + "FROM momento_encuesta \n"                    
+                    + "WHERE momento_encuesta.id_cliente = " + ID_CLIENTE + " \n"
+                    + "AND momento_encuesta.id_momento = " + ID_MOMENTO + " \n"
+                    + "GROUP BY momento_encuesta.id_momento \n" 
+                    + "ORDER BY momento_encuesta.id_momento ASC";
 
             stmt = dbtools.getConexion().createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
             rs = stmt.executeQuery(strSQL_moments);

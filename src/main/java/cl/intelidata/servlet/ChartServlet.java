@@ -548,7 +548,7 @@ public class ChartServlet extends HttpServlet {
             out.println("<td>&nbsp;" + porc_nps + "</td>");
             out.println("</tr>");
             out.println("<tr>");
-            out.println("<td>&nbsp;Recomendaci&oacute;n:</td>");
+            out.println("<td>&nbsp;Lealtad:</td>");
             out.println("<td>&nbsp;" + porc_lealtad + "&nbsp;<img src='img/corazon.gif' alt='lealtad' class='heart'></td>");
             out.println("</tr>");
             out.println("</tbody>");
@@ -1110,7 +1110,8 @@ public class ChartServlet extends HttpServlet {
     }
 
     /**
-     * MODAL COMMENT DOCHART_00_COMENTARIOS
+     * "LO QUE DICE LA GENTE"
+     * MODAL COMMENT DOCHART_00_COMENTARIOS 
      *
      * @param request
      * @param response
@@ -1213,17 +1214,31 @@ public class ChartServlet extends HttpServlet {
 
         filtros = filtros + ") AND ";
 
-        String str_Comentarios = "SELECT \n" + "\t" + strSQL_Cab + " \n" + "\tusuario.*,\n" + "\tcanal.descripcion_canal AS Canal_Ingreso,\n"
-                        + "\tDATE_FORMAT(cliente_respuesta.ultima_respuesta, '%Y-%m') AS Periodo,\n" + "\tcliente_respuesta.ultima_respuesta AS Fecha_Encuesta,\n"
-                        + "\testado.descripcion_estado AS Estado_Encuesta,\n" + "\tcliente_respuesta.id_cliente_respuesta,\n" + "\tpregunta_cabecera.numero_pregunta,\n"
-                        + "\trespuesta.id_pregunta_cabecera,\n" + "\tcategoria.descripcion_categoria AS categoria,\n" + "\tpregunta_cabecera.descripcion_1,\n" + "\trespuesta_detalle.valor1,\n"
-                        + "\tCASE WHEN ISNULL(respuesta_detalle.valor2) THEN '---' ELSE respuesta_detalle.valor2 END AS valor2\n" + "FROM respuesta_detalle\n"
+        String str_Comentarios = "SELECT \n" + "\t" + strSQL_Cab + " \n"
+                        + "\t usuario.*,\n" 
+                        + "\t canal.descripcion_canal AS Canal_Ingreso,\n"
+                        + "\t DATE_FORMAT(cliente_respuesta.ultima_respuesta, '%Y-%m') AS Periodo,\n" 
+                        + "\t cliente_respuesta.ultima_respuesta AS Fecha_Encuesta,\n"
+                        + "\t estado.descripcion_estado AS Estado_Encuesta,\n"
+                        + "\t cliente_respuesta.id_cliente_respuesta,\n" 
+                        + "\t pregunta_cabecera.numero_pregunta,\n"
+                        + "\t respuesta.id_pregunta_cabecera,\n"
+                        + "\t categoria.descripcion_categoria AS categoria,\n" 
+                        + "\t pregunta_cabecera.descripcion_1,\n"
+                        + "\t respuesta_detalle.valor1,\n"
+                        + "\t CASE WHEN ISNULL(respuesta_detalle.valor2) THEN '---' ELSE respuesta_detalle.valor2 END AS valor2\n"
+                        + "FROM respuesta_detalle\n"
                         + "INNER JOIN  respuesta ON respuesta.id_respuesta = respuesta_detalle.id_respuesta\n"
-                        + "INNER JOIN cliente_respuesta ON cliente_respuesta.id_respuesta = respuesta.id_respuesta\n" + "LEFT JOIN usuario ON respuesta.id_usuario = usuario.id_usuario\n"
-                        + "INNER JOIN canal ON respuesta.id_canal = canal.id_canal\n" + "INNER JOIN estado ON cliente_respuesta.id_estado = estado.id_estado\n"
+                        + "INNER JOIN cliente_respuesta ON cliente_respuesta.id_respuesta = respuesta.id_respuesta\n"
+                        + "LEFT JOIN usuario ON respuesta.id_usuario = usuario.id_usuario\n"
+                        + "INNER JOIN canal ON respuesta.id_canal = canal.id_canal\n" 
+                        + "INNER JOIN estado ON cliente_respuesta.id_estado = estado.id_estado\n"
                         + "INNER JOIN pregunta_cabecera ON respuesta.id_pregunta_cabecera = pregunta_cabecera.id_pregunta_cabecera\n"
-                        + "INNER JOIN categoria ON pregunta_cabecera.id_categoria = categoria.id_categoria\n" + "WHERE " + filtros + "\n" + "respuesta.id_cliente = " + ID_CLIENTE + "\n"
-                        + filterMoment + " \n" + "ORDER BY cliente_respuesta.id_cliente_respuesta, respuesta.id_pregunta_cabecera";
+                        + "INNER JOIN categoria ON pregunta_cabecera.id_categoria = categoria.id_categoria\n" 
+                        + "WHERE " + filtros + "\n" 
+                        + "respuesta.id_cliente = " + ID_CLIENTE + "\n"
+                        + filterMoment + " \n" 
+                        + "ORDER BY cliente_respuesta.id_cliente_respuesta, respuesta.id_pregunta_cabecera DESC";
 
         Statement stmt = null;
         ResultSet rs = null;
